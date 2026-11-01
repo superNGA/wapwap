@@ -1,0 +1,5015 @@
+%PDF-1.3
+%∑æ≠™
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Kids [ 6 0 R 9 0 R 12 0 R 15 0 R 18 0 R 21 0 R 24 0 R 27 0 R ]
+/Count 8
+>>
+endobj
+3 0 obj
+<<
+/Producer (Haru Free PDF Library 2.4.6)
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/BaseFont /HPDFAA+JetBrainsMono-Regular
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 255
+/MissingWidth 600
+/FontDescriptor 30 0 R
+/Widths [
+600 600 600 600 0 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 0 600 600 600 600 600 600 600 600 
+0 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 0 600 600 600 600 0 600 0 600 600 600 600 600 0 600 
+0 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 0 600 600 600 600 600 600 600 600 600 600 0 600 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+]
+/Encoding /StandardEncoding
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /HPDFAB+UniSansHeavyCAPS
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 255
+/MissingWidth 601
+/FontDescriptor 33 0 R
+/Widths [
+182 0 0 0 0 0 0 0 0 0 0 0 0 0 257 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 665 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 593 
+0 0 0 582 0 588 576 624 676 291 0 0 539 0 0 665 
+618 0 646 564 585 667 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+]
+/Encoding /StandardEncoding
+>>
+endobj
+6 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 595.276 841.89001 ]
+/Contents 7 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 5 0 R
+/F2 4 0 R
+>>
+>>
+/Parent 2 0 R
+>>
+endobj
+7 0 obj
+<<
+/Length 8 0 R
+>>
+stream
+/F1 12 Tf
+BT
+10 817.48999 Td
+(test_file.cpp) Tj
+ET
+BT
+0 803.08996 Td
+( ) Tj
+ET
+/F2 8 Tf
+0.95 0.95 0.95 rg
+0.95 0.95 0.95 RG
+15 15.02587 565.276 785.66406 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 775.34594 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 750.00195 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 724.65795 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 699.31396 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 673.9699 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 648.62591 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 623.28192 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 597.93792 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 572.59393 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 547.24993 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 521.90588 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 496.56192 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 471.21792 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 445.8739 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 420.5299 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 395.18591 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 369.84191 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 344.49792 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 319.1539 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 293.8099 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 268.46588 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 243.12188 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 217.77789 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 192.43389 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 167.0899 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 141.74591 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 116.40191 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 91.05786 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 65.71386 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 40.36987 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 15.02587 565.276 12.672 re
+f
+1 w
+0 0 0 RG
+15 800.68994 m
+15 15.02587 l
+S
+580.276 800.68994 m
+580.276 15.02587 l
+S
+15 800.68994 m
+580.276 800.68994 l
+S
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 790.41796 Td
+(\057\057=========================================================================) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 777.74597 Td
+(\057\057                      wapwap) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 765.07397 Td
+(\057\057=========================================================================) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 752.40197 Td
+(\057\057 by      : INSANE) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 739.72998 Td
+(\057\057 created : 31\05710\0572026) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 727.05798 Td
+(\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 714.38598 Td
+(\057\057 purpose : generate pdf with output for single file programs) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 701.71398 Td
+(\057\057-------------------------------------------------------------------------) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 689.04199 Td
+(\043include \074cmath\076) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 676.36999 Td
+(\043include \074stdio.h\076) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 663.69799 Td
+(\043include \074vector\076) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 651.026 Td
+(\043include \074cassert\076) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 638.354 Td
+(\043include \074cstring\076) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 625.682 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 613.01 Td
+(\057\057 libharu) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 600.33801 Td
+(\043include "..\057lib\057libharu\057include\057hpdf.h") Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 587.66601 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 574.99401 Td
+(\043include "config.h") Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 562.32202 Td
+(\043include "util\057log_io.h") Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 549.65002 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 536.97802 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 524.30603 Td
+(\043define OK \0500\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 511.63403 Td
+(\043define ER \0501\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 498.96203 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 486.29003 Td
+(\057\057 standard colors...) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 473.61804 Td
+(\043define BLACK      \050\050vec3\051\1730.0, 0.0, 0.0\175\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 460.94604 Td
+(\043define WHITE      \050\050vec3\051\1731.0, 1.0, 1.0\175\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 448.27404 Td
+(\043define LIGHT_GRAY \050\050vec3\051\1730.95, 0.95, 0.95\175\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 435.60205 Td
+(\043define MID_GRAY   \050\050vec3\051\1730.9, 0.9, 0.9\175\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 422.93005 Td
+(\043define RED        \050\050vec3\051\1731.0, 0.0, 0.0\175\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 410.25805 Td
+(\043define BLUE       \050\050vec3\051\1730.0, 0.0, 1.0\175\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 397.58605 Td
+(\043define GREEN      \050\050vec3\051\1730.0, 1.0, 0.0\175\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 384.91406 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 372.24206 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 359.57006 Td
+(\043define COMMENT_STR "\057\057") Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 346.89807 Td
+(\043define TAB_SIZE \0504\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 334.22607 Td
+(char EMPTY_LINE\133\135 = "";) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 321.55407 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 308.88208 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 296.21008 Td
+(\043define min\050x, y\051 \050\050x\051 \074 \050y\051 ? \050x\051 : \050y\051\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 283.53808 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 270.86608 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 258.19409 Td
+(\057\057 page margin) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 245.52209 Td
+(const float MARGIN_TOP    = 10.0;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 232.85009 Td
+(const float MARGIN_BOTTOM = 10.0;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 220.1781 Td
+(const float MARGIN_LEFT   = 10.0;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 207.5061 Td
+(const float MARGIN_RIGHT  = 10.0;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 194.8341 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 182.1621 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 169.49011 Td
+(\057\057 cmd line -\076 files) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 156.81811 Td
+(\057\057 cmd line -\076 compiler path) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 144.14611 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 131.47412 Td
+(const char* files\133\135 = \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 118.80212 Td
+(    "practical_001.cpp") Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 106.13012 Td
+(\175;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 93.45812 Td
+(const size_t file_count = sizeof\050files\051 \057 sizeof\050files\1330\135\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 80.78613 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 68.11413 Td
+(static int ww_add_from_file\050struct config *c, const char *f\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 55.44213 Td
+(static int ww_pushback_a4page\050struct config *c\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 42.77013 Td
+(static int ww_add_heading\050struct config *c, const char *h\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 30.09813 Td
+(static int ww_add_exec_file\050struct config *c, const char *f\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F2 8 Tf
+BT
+20 17.42613 Td
+(static int ww_addlinebg\050HPDF_Page page, struct vec3 clr, float x, float y, float width, float height\051;) Tj
+ET
+
+endstream
+endobj
+8 0 obj
+7604
+endobj
+9 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 595.276 841.89001 ]
+/Contents 10 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 2 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 11 0 R
+>>
+stream
+/F1 8 Tf
+0 0 0 rg
+0 0 0 RG
+0.95 0.95 0.95 rg
+0.95 0.95 0.95 RG
+15 18.48193 565.276 811.00805 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 804.14599 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 778.802 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 753.458 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 728.11401 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 702.76995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 677.42596 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 652.08197 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 626.73797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 601.39398 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 576.04998 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 550.70593 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 525.36193 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 500.01797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 474.67395 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 449.32995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 423.98596 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 398.64196 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 373.29797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 347.95394 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 322.60995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 297.26593 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 271.92193 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 246.57794 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 221.23394 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 195.88995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 170.54595 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 145.20196 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 119.85791 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 94.51391 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 69.16992 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 43.82592 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 18.48193 565.276 12.672 re
+f
+1 w
+0 0 0 RG
+15 829.48999 m
+15 18.48193 l
+S
+580.276 829.48999 m
+580.276 18.48193 l
+S
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 819.21801 Td
+(static int ww_textout\050struct config *c, const char *msg\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 806.54602 Td
+(static int ww_copy_page_stats\050HPDF_Page from, HPDF_Page to\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 793.87402 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 781.20202 Td
+(static int ww_split_line\050HPDF_Page page, char *line, std::vector\074char*\076* lines_out\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 768.53002 Td
+(static int ww_is_comment\050const char *c\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 755.85803 Td
+(static float ww_get_curfont_height\050HPDF_Page page\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 743.18603 Td
+(static HPDF_Page ww_get_active_page\050struct config *c\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 730.51403 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 717.84204 Td
+(void err_handler\050HPDF_STATUS error_no, HPDF_STATUS detail_no, void *user_data\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 705.17004 Td
+(HPDF_Font init_font\050HPDF_Doc pdf, const char *font_file\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 692.49804 Td
+(HPDF_Page add_a4_page\050HPDF_Doc* pdf\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 679.82604 Td
+(void sanitize_strline_inplace\050char *str\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 667.15405 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 654.48205 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 641.81005 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 629.13806 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 616.46606 Td
+(int main\050int argc, char **argv\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 603.79406 Td
+(\173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 591.12207 Td
+(    HPDF_Doc pdf = HPDF_New\050err_handler, NULL\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 578.45007 Td
+(    if \050!pdf\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 565.77807 Td
+(        FAIL_LOG\050"Failed to create new file"\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 553.10607 Td
+(        return 1;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 540.43408 Td
+(    \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 527.76208 Td
+(    WIN_LOG\050"doc initialized"\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 515.09008 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 502.41809 Td
+(    HPDF_Font font_jbm = init_font\050pdf, "JetBrainsMono.ttf"\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 489.74609 Td
+(    if \050!font_jbm\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 477.07409 Td
+(        FAIL_LOG\050"Failed to load font"\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 464.40209 Td
+(        return 1;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 451.7301 Td
+(    \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 439.0581 Td
+(    WIN_LOG\050"Fonts initialized"\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 426.3861 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 413.71411 Td
+(    config c = \1730\175;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 401.04211 Td
+(    c.pdf = pdf;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 388.37011 Td
+(    c.book.clear\050\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 375.69812 Td
+(    c.it = 0.0;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 363.02612 Td
+(    c.line_num = true;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 350.35412 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 337.68212 Td
+(    c.font_codetext    = font_jbm;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 325.01013 Td
+(    c.font_codecomment = font_jbm;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 312.33813 Td
+(    c.font_heading     = font_jbm;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 299.66613 Td
+(    c.font_output      = font_jbm;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 286.99414 Td
+(    c.font_linenum     = font_jbm;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 274.32214 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 261.65014 Td
+(    c.clr_codetext     = BLACK;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 248.97814 Td
+(    c.clr_codecomment  = BLACK;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 236.30615 Td
+(    c.clr_output       = BLACK;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 223.63415 Td
+(    c.clr_heading      = BLACK;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 210.96215 Td
+(    c.clr_headingdecor = BLACK;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 198.29016 Td
+(    c.clr_codeline_a   = LIGHT_GRAY;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 185.61816 Td
+(    c.clr_codeline_b   = MID_GRAY;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 172.94616 Td
+(    c.clr_linenum      = BLACK;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 160.27416 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 147.60217 Td
+(    ww_pushback_a4page\050&c\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 134.93017 Td
+(    c.it = HPDF_Page_GetHeight\050c.book.back\050\051\051 - MARGIN_TOP;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 122.25817 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 109.58618 Td
+(    for \050size_t i = 0; i \074 file_count; ++i\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 96.91418 Td
+(        const char *f = files\133i\135;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 84.24218 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 71.57019 Td
+(        ww_add_heading\050&c, f\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 58.89818 Td
+(        ww_textout\050&c, " "\051; \057\057 empty line) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 46.22618 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 33.55418 Td
+(        int status_prog = ww_add_from_file\050&c, f\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 20.88218 Td
+(        if \050status_prog != OK\051 \173) Tj
+ET
+
+endstream
+endobj
+11 0 obj
+8209
+endobj
+12 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 595.276 841.89001 ]
+/Contents 13 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 14 0 R
+>>
+stream
+/F1 8 Tf
+0 0 0 rg
+0 0 0 RG
+0.95 0.95 0.95 rg
+0.95 0.95 0.95 RG
+15 18.48193 565.276 811.00805 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 804.14599 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 778.802 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 753.458 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 728.11401 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 702.76995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 677.42596 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 652.08197 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 626.73797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 601.39398 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 576.04998 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 550.70593 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 525.36193 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 500.01797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 474.67395 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 449.32995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 423.98596 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 398.64196 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 373.29797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 347.95394 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 322.60995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 297.26593 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 271.92193 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 246.57794 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 221.23394 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 195.88995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 170.54595 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 145.20196 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 119.85791 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 94.51391 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 69.16992 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 43.82592 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 18.48193 565.276 12.672 re
+f
+1 w
+0 0 0 RG
+15 829.48999 m
+15 18.48193 l
+S
+580.276 829.48999 m
+580.276 18.48193 l
+S
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 819.21801 Td
+(            FAIL_LOG\050"Failed to generate pdf for file : \045s", files\133i\135\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 806.54602 Td
+(            return 1;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 793.87402 Td
+(        \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 781.20202 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 768.53002 Td
+(        ww_textout\050&c, " "\051; \057\057 empty line) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 755.85803 Td
+(        ww_add_heading\050&c, "Output"\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 743.18603 Td
+(        ww_textout\050&c, " "\051; \057\057 empty line) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 730.51403 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 717.84204 Td
+(        int status_output = ww_add_exec_file\050&c, f\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 705.17004 Td
+(        if \050status_output != OK\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 692.49804 Td
+(            FAIL_LOG\050"Failed to generate pdf for file : \045s", files\133i\135\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 679.82604 Td
+(            return 1;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 667.15405 Td
+(        \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 654.48205 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 641.81005 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 629.13806 Td
+(        WIN_LOG\050"\045s generated \045.1f\045\045", files\133i\135, 100.0 * \050float\051i \057 \050float\051file_count\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 616.46606 Td
+(    \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 603.79406 Td
+(    ) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 591.12207 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 578.45007 Td
+(    \057\057 Write file and exit) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 565.77807 Td
+(    HPDF_SaveToFile\050pdf, "output.pdf"\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 553.10607 Td
+(    HPDF_Free\050pdf\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 540.43408 Td
+(    return 0;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 527.76208 Td
+(\175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 515.09008 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 502.41809 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 489.74609 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 477.07409 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 464.40209 Td
+(static int ww_add_from_file\050struct config *c, const char *f\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 451.7301 Td
+(\173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 439.0581 Td
+(    FILE *file = fopen\050f, "r"\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 426.3861 Td
+(    if \050!file\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 413.71411 Td
+(        FAIL_LOG\050"Couldn't open file \045s", f\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 401.04211 Td
+(        return ER;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 388.37011 Td
+(    \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 375.69812 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 363.02612 Td
+(    float pwidth = HPDF_Page_GetWidth\050c-\076book.back\050\051\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 350.35412 Td
+(    float pheight = HPDF_Page_GetHeight\050c-\076book.back\050\051\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 337.68212 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 325.01013 Td
+(    HPDF_Page start_page = ww_get_active_page\050c\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 312.33813 Td
+(    HPDF_Page_SetFontAndSize\050start_page, c-\076font_codetext, 8.0\051; \057\057 use default code font to calculate line wrappin) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 299.66613 Td
+(g.) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 286.99414 Td
+(    float code_font_height = ww_get_curfont_height\050start_page\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 274.32214 Td
+(    float code_font_descend = abs\050HPDF_Page_GetCurrentFontSize\050start_page\051 * HPDF_Font_GetDescent\050HPDF_Page_GetCurr) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 261.65014 Td
+(entFont\050start_page\051\051 \057 1000.0\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 248.97814 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 236.30615 Td
+(    std::vector\074char*\076 lines;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 223.63415 Td
+(    std::vector\074char*\076 split_lines;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 210.96215 Td
+(    char *line = NULL; size_t linelen = 0;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 198.29016 Td
+(    while \050getline\050&line, &linelen, file\051 \076 0\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 185.61816 Td
+(        split_lines.clear\050\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 172.94616 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 160.27416 Td
+(        \057\057 count all tab chars) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 147.60217 Td
+(        size_t tab_count = 0;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 134.93017 Td
+(        for \050size_t i = 0; i \074 linelen; ++i\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 122.25817 Td
+(            if \050line\133i\135 == '\134t'\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 109.58618 Td
+(                ++tab_count;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 96.91418 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 84.24218 Td
+(        \057\057 Allocate new buffer to compensate for expanded tabs) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 71.57019 Td
+(        char *new_buf = \050char*\051calloc\050linelen + tab_count * \050TAB_SIZE - 1\051 + 10, 1\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 58.89818 Td
+(        strncpy\050new_buf, line, linelen\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 46.22618 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 33.55418 Td
+(        \057\057 expand all tabs) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 20.88218 Td
+(        sanitize_strline_inplace\050new_buf\051;) Tj
+ET
+
+endstream
+endobj
+14 0 obj
+8458
+endobj
+15 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 595.276 841.89001 ]
+/Contents 16 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 17 0 R
+>>
+stream
+/F1 8 Tf
+0 0 0 rg
+0 0 0 RG
+0.95 0.95 0.95 rg
+0.95 0.95 0.95 RG
+15 18.48193 565.276 811.00805 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 804.14599 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 778.802 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 753.458 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 728.11401 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 702.76995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 677.42596 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 652.08197 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 626.73797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 601.39398 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 576.04998 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 550.70593 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 525.36193 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 500.01797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 474.67395 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 449.32995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 423.98596 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 398.64196 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 373.29797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 347.95394 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 322.60995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 297.26593 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 271.92193 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 246.57794 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 221.23394 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 195.88995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 170.54595 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 145.20196 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 119.85791 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 94.51391 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 69.16992 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 43.82592 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 18.48193 565.276 12.672 re
+f
+1 w
+0 0 0 RG
+15 829.48999 m
+15 18.48193 l
+S
+580.276 829.48999 m
+580.276 18.48193 l
+S
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 819.21801 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 806.54602 Td
+(        \057\057 Split the line for the sake of line-wrapping.) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 793.87402 Td
+(        ww_split_line\050start_page, new_buf, &split_lines\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 781.20202 Td
+(        if \050split_lines.empty\050\051\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 768.53002 Td
+(            lines.push_back\050EMPTY_LINE\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 755.85803 Td
+(            LOG\050"Empty line"\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 743.18603 Td
+(        \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 730.51403 Td
+(        else \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 717.84204 Td
+(            for \050char *line_piece : split_lines\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 705.17004 Td
+(                lines.push_back\050line_piece\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 692.49804 Td
+(            LOG\050"Split line into \045zu pieces", split_lines.size\050\051\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 679.82604 Td
+(        \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 667.15405 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 654.48205 Td
+(        free\050new_buf\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 641.81005 Td
+(    \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 629.13806 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 616.46606 Td
+(    int total_boxes = lines.size\050\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 603.79406 Td
+(    int boxes_left = lines.size\050\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 591.12207 Td
+(    HPDF_Page last_boxed_page = NULL;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 578.45007 Td
+(    for \050size_t i = 0; i \074 lines.size\050\051; ++i\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 565.77807 Td
+(        HPDF_Page active_page = ww_get_active_page\050c\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 553.10607 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 540.43408 Td
+(        if \050boxes_left \076 0 && last_boxed_page != active_page\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 527.76208 Td
+(            float box_it = c-\076it - code_font_descend; \057\057 Acknowledge the subtracted font descend) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 515.09008 Td
+(            assert\050box_it \076 MARGIN_BOTTOM && box_it \074 pheight - MARGIN_TOP && "Invalid box iterator"\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 502.41809 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 489.74609 Td
+(            int max_boxes = \050box_it - MARGIN_BOTTOM\051 \057 code_font_height;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 477.07409 Td
+(            int drawable_boxes = min\050max_boxes, boxes_left\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 464.40209 Td
+(            float merged_box_height = \050float\051drawable_boxes * code_font_height;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 451.7301 Td
+(            ww_addlinebg\050active_page, c-\076clr_codeline_a, MARGIN_LEFT, box_it - merged_box_height, pwidth - MARGIN_L) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 439.0581 Td
+(EFT - MARGIN_RIGHT, merged_box_height\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 426.3861 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 413.71411 Td
+(            \057\057 Draw alternate boxes) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 401.04211 Td
+(            for \050int box_i = 0; box_i \074 drawable_boxes \057 2; ++box_i\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 388.37011 Td
+(                ww_addlinebg\050active_page,) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 375.69812 Td
+(                        c-\076clr_codeline_b, ) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 363.02612 Td
+(                        MARGIN_LEFT, ) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 350.35412 Td
+(                        box_it - \050float\051\050box_i + 1\051 * code_font_height * 2.0,) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 337.68212 Td
+(                        pwidth - MARGIN_LEFT - MARGIN_RIGHT,) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 325.01013 Td
+(                        code_font_height\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 312.33813 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 299.66613 Td
+(            \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 286.99414 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 274.32214 Td
+(            \057\057 Draw border lines over the boxes) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 261.65014 Td
+(            HPDF_Page_SetLineWidth\050active_page, 1.0\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 248.97814 Td
+(            HPDF_Page_SetRGBStroke\050active_page, 0.0, 0.0, 0.0\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 236.30615 Td
+(            HPDF_Page_MoveTo\050active_page, MARGIN_LEFT, box_it\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 223.63415 Td
+(            HPDF_Page_LineTo\050active_page, MARGIN_LEFT, box_it - merged_box_height\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 210.96215 Td
+(            HPDF_Page_Stroke\050active_page\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 198.29016 Td
+(            HPDF_Page_MoveTo\050active_page, pwidth - MARGIN_RIGHT, box_it\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 185.61816 Td
+(            HPDF_Page_LineTo\050active_page, pwidth - MARGIN_RIGHT, box_it - merged_box_height\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 172.94616 Td
+(            HPDF_Page_Stroke\050active_page\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 160.27416 Td
+(            if \050boxes_left == total_boxes\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 147.60217 Td
+(                HPDF_Page_MoveTo\050active_page, MARGIN_LEFT, box_it\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 134.93017 Td
+(                HPDF_Page_LineTo\050active_page, pwidth - MARGIN_RIGHT, box_it\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 122.25817 Td
+(                HPDF_Page_Stroke\050active_page\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 109.58618 Td
+(            \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 96.91418 Td
+(            if \050boxes_left == drawable_boxes\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 84.24218 Td
+(                HPDF_Page_MoveTo\050active_page, MARGIN_LEFT, box_it - merged_box_height\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 71.57019 Td
+(                HPDF_Page_LineTo\050active_page, pwidth - MARGIN_RIGHT, box_it - merged_box_height\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 58.89818 Td
+(                HPDF_Page_Stroke\050active_page\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 46.22618 Td
+(            \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 33.55418 Td
+(            ) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 20.88218 Td
+ET
+
+endstream
+endobj
+17 0 obj
+8782
+endobj
+18 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 595.276 841.89001 ]
+/Contents 19 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 2 0 R
+>>
+endobj
+19 0 obj
+<<
+/Length 20 0 R
+>>
+stream
+/F1 8 Tf
+0 0 0 rg
+0 0 0 RG
+0.95 0.95 0.95 rg
+0.95 0.95 0.95 RG
+15 18.48193 565.276 811.00805 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 804.14599 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 778.802 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 753.458 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 728.11401 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 702.76995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 677.42596 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 652.08197 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 626.73797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 601.39398 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 576.04998 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 550.70593 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 525.36193 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 500.01797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 474.67395 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 449.32995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 423.98596 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 398.64196 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 373.29797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 347.95394 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 322.60995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 297.26593 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 271.92193 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 246.57794 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 221.23394 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 195.88995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 170.54595 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 145.20196 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 119.85791 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 94.51391 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 69.16992 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 43.82592 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 18.48193 565.276 12.672 re
+f
+1 w
+0 0 0 RG
+15 829.48999 m
+15 18.48193 l
+S
+580.276 829.48999 m
+580.276 18.48193 l
+S
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 819.21801 Td
+(            \057\057 deduced drawn boxes) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 806.54602 Td
+(            box_it -= merged_box_height;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 793.87402 Td
+(            last_boxed_page = active_page;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 781.20202 Td
+(            LOG\050"merged \045d boxes, total height : \045.2f", drawable_boxes, merged_box_height\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 768.53002 Td
+(        \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 755.85803 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 743.18603 Td
+(        const char *line = lines\133i\135;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 730.51403 Td
+(        bool is_comment = ww_is_comment\050line\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 717.84204 Td
+(        HPDF_Font font = is_comment ? c-\076font_codecomment : c-\076font_codetext;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 705.17004 Td
+(        struct vec3 txt_clr = is_comment ? c-\076clr_codecomment : c-\076clr_codetext;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 692.49804 Td
+(        float font_height = code_font_height; \057\057 ww_get_curfont_height\050active_page\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 679.82604 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 667.15405 Td
+(        HPDF_Page_SetRGBFill\050active_page, txt_clr.x, txt_clr.y, txt_clr.z\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 654.48205 Td
+(        HPDF_Page_SetRGBStroke\050active_page, txt_clr.x, txt_clr.y, txt_clr.z\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 641.81005 Td
+(        HPDF_Page_SetFontAndSize\050ww_get_active_page\050c\051, font, 8.0\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 629.13806 Td
+(        ww_textout\050c, line\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 616.46606 Td
+(    \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 603.79406 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 591.12207 Td
+(    fclose\050file\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 578.45007 Td
+(    return OK;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 565.77807 Td
+(\175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 553.10607 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 540.43408 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 527.76208 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 515.09008 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 502.41809 Td
+(static int ww_pushback_a4page\050struct config *c\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 489.74609 Td
+(\173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 477.07409 Td
+(    HPDF_Page page = HPDF_AddPage\050c-\076pdf\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 464.40209 Td
+(    HPDF_Page_SetSize\050page, HPDF_PAGE_SIZE_A4, HPDF_PAGE_PORTRAIT\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 451.7301 Td
+(    c-\076book.push_back\050page\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 439.0581 Td
+(    return OK;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 426.3861 Td
+(\175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 413.71411 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 401.04211 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 388.37011 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 375.69812 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 363.02612 Td
+(static int ww_add_heading\050struct config *c, const char *h\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 350.35412 Td
+(\173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 337.68212 Td
+(    HPDF_Page_SetFontAndSize\050ww_get_active_page\050c\051, c-\076font_heading, 12.0\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 325.01013 Td
+(    ww_textout\050c, h\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 312.33813 Td
+(    return OK;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 299.66613 Td
+(\175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 286.99414 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 274.32214 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 261.65014 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 248.97814 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 236.30615 Td
+(static int ww_add_exec_file\050struct config *c, const char *f\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 223.63415 Td
+(\173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 210.96215 Td
+(    ww_textout\050c, "output goes here"\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 198.29016 Td
+(    return OK;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 185.61816 Td
+(\175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 172.94616 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 160.27416 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 147.60217 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 134.93017 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 122.25817 Td
+(static int ww_addlinebg\050HPDF_Page page, struct vec3 clr, float x, float y, float width, float height\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 109.58618 Td
+(\173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 96.91418 Td
+(    HPDF_Page_SetRGBFill\050page, clr.x, clr.y, clr.z\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 84.24218 Td
+(    HPDF_Page_SetRGBStroke\050page, clr.x, clr.y, clr.z\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 71.57019 Td
+(    HPDF_Page_Rectangle\050page, x, y, width, height\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 58.89818 Td
+(    HPDF_Page_Fill\050page\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 46.22618 Td
+(    return OK;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 33.55418 Td
+(\175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 20.88218 Td
+ET
+
+endstream
+endobj
+20 0 obj
+9857
+endobj
+21 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 595.276 841.89001 ]
+/Contents 22 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 2 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 23 0 R
+>>
+stream
+/F1 8 Tf
+0 0 0 rg
+0 0 0 RG
+0.95 0.95 0.95 rg
+0.95 0.95 0.95 RG
+15 18.48193 565.276 811.00805 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 804.14599 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 778.802 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 753.458 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 728.11401 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 702.76995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 677.42596 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 652.08197 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 626.73797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 601.39398 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 576.04998 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 550.70593 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 525.36193 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 500.01797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 474.67395 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 449.32995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 423.98596 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 398.64196 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 373.29797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 347.95394 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 322.60995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 297.26593 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 271.92193 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 246.57794 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 221.23394 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 195.88995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 170.54595 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 145.20196 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 119.85791 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 94.51391 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 69.16992 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 43.82592 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 18.48193 565.276 12.672 re
+f
+1 w
+0 0 0 RG
+15 829.48999 m
+15 18.48193 l
+S
+580.276 829.48999 m
+580.276 18.48193 l
+S
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 819.21801 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 806.54602 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 793.87402 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 781.20202 Td
+(static int ww_textout\050struct config *c, const char *msg\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 768.53002 Td
+(\173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 755.85803 Td
+(    \057\057 The new line is placed, treating the c-\076it \050iterator\051 as the top-left corner) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 743.18603 Td
+(    \057\057 of the line.) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 730.51403 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 717.84204 Td
+(    HPDF_Page active_page = ww_get_active_page\050c\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 705.17004 Td
+(    HPDF_Font active_font = HPDF_Page_GetCurrentFont\050active_page\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 692.49804 Td
+(    float font_height = ww_get_curfont_height\050active_page\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 679.82604 Td
+(    float page_height = HPDF_Page_GetHeight\050active_page\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 667.15405 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 654.48205 Td
+(    \057\057 iterator too high on the page?) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 641.81005 Td
+(    if \050c-\076it \076 page_height - MARGIN_TOP\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 629.13806 Td
+(        c-\076it = page_height - MARGIN_TOP;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 616.46606 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 603.79406 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 591.12207 Td
+(    \057\057 NOTE : We can always write at c-\076it - font_height \050this line\051 because when ) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 578.45007 Td
+(    \057\057 c-\076it - font_height * 2.0 \050next line\051 goes out of bound, we push_back new page.) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 565.77807 Td
+(    HPDF_Page_BeginText\050active_page\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 553.10607 Td
+(    HPDF_Page_TextOut\050active_page, MARGIN_LEFT, c-\076it - font_height, msg\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 540.43408 Td
+(    HPDF_Page_EndText\050active_page\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 527.76208 Td
+(    c-\076it -= font_height;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 515.09008 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 502.41809 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 489.74609 Td
+(    \057\057 Next line out of range? pushback new page) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 477.07409 Td
+(    if \050c-\076it - font_height \074 MARGIN_BOTTOM\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 464.40209 Td
+(        ww_pushback_a4page\050c\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 451.7301 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 439.0581 Td
+(        HPDF_Page new_page = ww_get_active_page\050c\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 426.3861 Td
+(        ww_copy_page_stats\050active_page, new_page\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 413.71411 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 401.04211 Td
+(        active_page = new_page;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 388.37011 Td
+(        c-\076it = page_height - MARGIN_TOP;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 375.69812 Td
+(    \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 363.02612 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 350.35412 Td
+(    return OK;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 337.68212 Td
+(\175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 325.01013 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 312.33813 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 299.66613 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 286.99414 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 274.32214 Td
+(static int ww_copy_page_stats\050HPDF_Page from, HPDF_Page to\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 261.65014 Td
+(\173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 248.97814 Td
+(    \057\057 font & size) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 236.30615 Td
+(    HPDF_Page_SetFontAndSize\050to, HPDF_Page_GetCurrentFont\050from\051, HPDF_Page_GetCurrentFontSize\050from\051\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 223.63415 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 210.96215 Td
+(    \057\057 fill clr) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 198.29016 Td
+(    HPDF_RGBColor from_clr = HPDF_Page_GetRGBFill\050from\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 185.61816 Td
+(    HPDF_Page_SetRGBFill\050to, from_clr.r, from_clr.g, from_clr.b\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 172.94616 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 160.27416 Td
+(    \057\057 stroke clr) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 147.60217 Td
+(    HPDF_RGBColor from_stroke_clr = HPDF_Page_GetRGBStroke\050from\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 134.93017 Td
+(    HPDF_Page_SetRGBStroke\050to, from_stroke_clr.r, from_stroke_clr.g, from_stroke_clr.b\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 122.25817 Td
+(    return OK;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 109.58618 Td
+(\175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 96.91418 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 84.24218 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 71.57019 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 58.89818 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 46.22618 Td
+(static int ww_split_line\050HPDF_Page page, char *line, std::vector\074char*\076* lines_out\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 33.55418 Td
+(\173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 20.88218 Td
+(    float pwidth = HPDF_Page_GetWidth\050page\051;) Tj
+ET
+
+endstream
+endobj
+23 0 obj
+9469
+endobj
+24 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 595.276 841.89001 ]
+/Contents 25 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+>>
+>>
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 26 0 R
+>>
+stream
+/F1 8 Tf
+0 0 0 rg
+0 0 0 RG
+0.95 0.95 0.95 rg
+0.95 0.95 0.95 RG
+15 18.48193 565.276 811.00805 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 804.14599 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 778.802 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 753.458 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 728.11401 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 702.76995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 677.42596 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 652.08197 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 626.73797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 601.39398 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 576.04998 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 550.70593 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 525.36193 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 500.01797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 474.67395 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 449.32995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 423.98596 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 398.64196 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 373.29797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 347.95394 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 322.60995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 297.26593 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 271.92193 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 246.57794 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 221.23394 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 195.88995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 170.54595 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 145.20196 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 119.85791 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 94.51391 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 69.16992 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 43.82592 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 18.48193 565.276 12.672 re
+f
+1 w
+0 0 0 RG
+15 829.48999 m
+15 18.48193 l
+S
+580.276 829.48999 m
+580.276 18.48193 l
+S
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 819.21801 Td
+(    float split_width = pwidth - MARGIN_RIGHT - MARGIN_LEFT;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 806.54602 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 793.87402 Td
+(    while \050*line != '\1340'\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 781.20202 Td
+(        HPDF_REAL real_width = 0.0;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 768.53002 Td
+(        size_t split_len = HPDF_Page_MeasureText\050page, line, split_width, true, &real_width\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 755.85803 Td
+(        char *line_buf = \050char*\051calloc\050split_len + 2, 1\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 743.18603 Td
+(        strncpy\050line_buf, line, split_len\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 730.51403 Td
+(        lines_out-\076push_back\050line_buf\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 717.84204 Td
+(        line += split_len;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 705.17004 Td
+(    \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 692.49804 Td
+(    return OK;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 679.82604 Td
+(\175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 667.15405 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 654.48205 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 641.81005 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 629.13806 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 616.46606 Td
+(static int ww_is_comment\050const char *c\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 603.79406 Td
+(\173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 591.12207 Td
+(    size_t i = 0;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 578.45007 Td
+(    while \050c\133i\135 != '\1340'\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 565.77807 Td
+(        if \050c\133i\135 != ' '\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 553.10607 Td
+(            return strncmp\050&c\133i\135, COMMENT_STR, sizeof\050COMMENT_STR\051 - 1\051 == 0;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 540.43408 Td
+(        ++i;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 527.76208 Td
+(    \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 515.09008 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 502.41809 Td
+(    return 0;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 489.74609 Td
+(\175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 477.07409 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 464.40209 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 451.7301 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 439.0581 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 426.3861 Td
+(void err_handler\050HPDF_STATUS error_no, HPDF_STATUS detail_no, void *user_data\051 ) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 413.71411 Td
+(\173 ) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 401.04211 Td
+(    FAIL_LOG\050"libharu error \133 \045d \135, detail no \045d\134n", \050int\051error_no, \050int\051detail_no\051; ) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 388.37011 Td
+(    exit\0501\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 375.69812 Td
+(\175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 363.02612 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 350.35412 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 337.68212 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 325.01013 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 312.33813 Td
+(HPDF_Font init_font\050HPDF_Doc pdf, const char *font_file\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 299.66613 Td
+(\173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 286.99414 Td
+(    const char *font_name = HPDF_LoadTTFontFromFile\050pdf, font_file, HPDF_TRUE\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 274.32214 Td
+(    if \050!font_name\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 261.65014 Td
+(        FAIL_LOG\050"Failed to load font from file"\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 248.97814 Td
+(        return NULL;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 236.30615 Td
+(    \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 223.63415 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 210.96215 Td
+(    return HPDF_GetFont\050pdf, font_name, NULL\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 198.29016 Td
+(\175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 185.61816 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 172.94616 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 160.27416 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 147.60217 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 134.93017 Td
+(static float ww_get_curfont_height\050HPDF_Page page\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 122.25817 Td
+(\173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 109.58618 Td
+(    HPDF_Font f = HPDF_Page_GetCurrentFont\050page\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 96.91418 Td
+(    float height = \050HPDF_Font_GetAscent\050f\051 - HPDF_Font_GetDescent\050f\051\051 * HPDF_Page_GetCurrentFontSize\050page\051 \057 1000.0) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 84.24218 Td
+(;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 71.57019 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 58.89818 Td
+(    return height * 1.2;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 46.22618 Td
+(\175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 33.55418 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 20.88218 Td
+ET
+
+endstream
+endobj
+26 0 obj
+9583
+endobj
+27 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 595.276 841.89001 ]
+/Contents 28 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+>>
+>>
+/Parent 2 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 29 0 R
+>>
+stream
+/F1 8 Tf
+0 0 0 rg
+0 0 0 RG
+0.95 0.95 0.95 rg
+0.95 0.95 0.95 RG
+15 195.88995 565.276 633.60003 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 804.14599 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 778.802 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 753.458 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 728.11401 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 702.76995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 677.42596 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 652.08197 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 626.73797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 601.39398 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 576.04998 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 550.70593 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 525.36193 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 500.01797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 474.67395 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 449.32995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 423.98596 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 398.64196 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 373.29797 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 347.95394 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 322.60995 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 297.26593 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 271.92193 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 246.57794 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 221.23394 565.276 12.672 re
+f
+0.9 0.9 0.9 rg
+0.9 0.9 0.9 RG
+15 195.88995 565.276 12.672 re
+f
+1 w
+0 0 0 RG
+15 829.48999 m
+15 195.88995 l
+S
+580.276 829.48999 m
+580.276 195.88995 l
+S
+15 195.88995 m
+580.276 195.88995 l
+S
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 819.21801 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 806.54602 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 793.87402 Td
+(static HPDF_Page ww_get_active_page\050struct config *c\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 781.20202 Td
+(\173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 768.53002 Td
+(    return c-\076book.back\050\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 755.85803 Td
+(\175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 743.18603 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 730.51403 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 717.84204 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 705.17004 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 692.49804 Td
+(HPDF_Page add_a4_page\050HPDF_Doc* pdf\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 679.82604 Td
+(\173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 667.15405 Td
+(    HPDF_Page page = HPDF_AddPage\050*pdf\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 654.48205 Td
+(    HPDF_Page_SetSize\050page, HPDF_PAGE_SIZE_A4, HPDF_PAGE_PORTRAIT\051;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 641.81005 Td
+(    return page;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 629.13806 Td
+(\175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 616.46606 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 603.79406 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 591.12207 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 578.45007 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 565.77807 Td
+(size_t linelen\050const char *s\051 ) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 553.10607 Td
+(\173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 540.43408 Td
+(    size_t l = 0;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 527.76208 Td
+(    while \050s\133l\135 != '\1340' && s\133l\135 != '\134n'\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 515.09008 Td
+(        ++l;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 502.41809 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 489.74609 Td
+(    return l;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 477.07409 Td
+(\175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 464.40209 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 451.7301 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 439.0581 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 426.3861 Td
+(\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057\057) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 413.71411 Td
+(void sanitize_strline_inplace\050char *str\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 401.04211 Td
+(\173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 388.37011 Td
+(    size_t tab_size = 4;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 375.69812 Td
+(    size_t shift_size = tab_size - 1;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 363.02612 Td
+(    size_t i = 0;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 350.35412 Td
+(    int tabs = 0;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 337.68212 Td
+(    while \050str\133i\135 != '\1340' && str\133i\135 != '\134n'\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 325.01013 Td
+(        if \050str\133i\135 == '\134t'\051 \173) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 312.33813 Td
+(            for \050size_t j = linelen\050str\051; j \076 i; --j\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 299.66613 Td
+(                str\133j + shift_size\135 = str\133j\135;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 286.99414 Td
+(            for \050size_t j = i; j \074 i + tab_size; ++j\051) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 274.32214 Td
+(                str\133j\135 = ' ';) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 261.65014 Td
+(        \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 248.97814 Td
+(        ++i;) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 236.30615 Td
+(    \175) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 223.63415 Td
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 210.96215 Td
+(    str\133i\135 = '\1340';) Tj
+ET
+0 0 0 rg
+0 0 0 RG
+/F1 8 Tf
+BT
+20 198.29016 Td
+(\175) Tj
+ET
+BT
+0 185.61816 Td
+( ) Tj
+ET
+/F2 12 Tf
+BT
+10 171.21817 Td
+(Output) Tj
+ET
+BT
+0 156.81817 Td
+( ) Tj
+ET
+BT
+10 142.41818 Td
+(output goes here) Tj
+ET
+
+endstream
+endobj
+29 0 obj
+8024
+endobj
+30 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 1020
+/Descent -300
+/CapHeight 730
+/Flags 32
+/FontBBox [ -1735 -400 765 1120 ]
+/FontName /HPDFAA+JetBrainsMono-Regular
+/ItalicAngle 0
+/StemV 0
+/XHeight 550
+/FontFile2 31 0 R
+>>
+endobj
+31 0 obj
+<<
+/Length 32 0 R
+/Length1 47780
+/Length2 0
+/Length3 0
+>>
+stream
+       OS/25Ñ   ‹   `cmapZ$X⁄  <  Bjcvt 'X  C®   ®fpgmb/  DP  glyf•ªù  R\  *head+`Ñ  |h   6hhea 5W  |†   $hmtx“Ò  |ƒ  <loca ÕÕ0  ò   @maxp»D  ≥@    name1‰Py  ≥`  Kpost     π¨    prepäÕú  πÃ   ÷ Xê   äX   KäX  ^ 2@    	      †ˇ ˘˚  <    JB   ¿ ˇˇ¸˛‘  ¸,  üﬂ◊  &⁄              $          $  
+   Ó  ®   ®  / 9 ~1êíõ°∞Œ–“‘÷ÿ⁄‹ÁÎıˇ37Y∫º«…›Û˜#(8u~äåê°©∞…œ◊#:CO\_ìõ£±∑ªŸﬂÈı
+ÍÖû˘      " $ & 0 4 : ? F p y z | â ¨ Æ ¥ Ω ø!!!!!!!"!$!.!@!ã!ô!û!†!£!ß!™!≠!æ!…!‘!€!ﬂ!Â!Ë!Í""""""%"+"9"<">"C"E"I"K"M"T"W"e"s"|"â"ô"•"¥"∏"Ω"ƒ"∆" "Œ"–"‚"Ò#####&#(#+#z#ã#ï#≠#Œ#˛$!$$%î%ü%°%´%Ã%œ%’%Ê%Î%Ô%ˆ&m&o&á&°''''6'q'î'û'∆'‹'Î'˜))J)à* *+X‡¢‡≥˛b˛ˇˇ[ˇ]ˇ˝ˇˇ      0 : †4èíõ†ØÕ–“‘÷ÿ⁄‹ÊÍÙ¸27Yπº∆…ÿÛ˜ #%6t~Ñåéë£™± ’$;DQ^êö¢Æ∂∫ÿ‹‰Ù
+ÍÄû†       $ & 0 2 9 < D p t z | Ä ´ Æ ¥ Ω ø!!!!!!!"!$!.!@!ä!ê!ù!†!¢!•!©!≠!æ!…!–!€!ﬁ!Â!Á!Í" """""#"'"4"<">"C"E"G"K"M"T"W"_"j"z"Ç"é"õ"¥"∏"ª"¬"∆"»"Œ"–"‚"Ó#####$#(#+#6#â#ï#õ#Œ#˚$ $#% %ï%†%™%≤%Œ%‘%Ê%Á%Ô%ˆ&m&o&á&†''''6'n'î'ú'≈'‹'Ê'ı))J)á* *+X‡†‡∞˛b˛ˇˇ[ˇ]ˇ˝ˇˇ≥  §        6ˇz      ˇ3ˇSˇÄˇÑˇˇ~ˇ}            ˛◊˛ö  ®øù      fd\UTGÓ =  ˛·  ˛¿˛ø  ˛ƒ        ˝º  ˝‡                          ¯>  ·È  „ª„≤„K„F„!  „„‰	  „.    ‚í‚í„¡„j‚d„„„„„·†·ö‰Æ  ·ñ·î‰ò·ï‰ñ„      ‚ﬁ‚›‚‹‚‹‚œ‚…‚ø  ‚≥  ‚ü‚®„¯    ·»  ‚  ·ˇ  ‚·Ø·ç·í  ‚·õ·Å·ı            ·T·D    ·ì  ···0      ‚—    ‚Ω‚∏    ·  ‚        ﬂﬂ(ﬂ     ﬁÈﬁ›ﬁÂﬁÕﬁ…ﬂÛﬂÚﬂ$ﬂﬁõﬁöﬁôﬁ{  ‹ˇ‹¯  ‹  ‹¢€-⁄§ŸŒŸ˛Ÿ˙⁄ô&$&ÿ¬ÓÌ˘   ¶  ¬Jl                   ¯˙¸˛
+              
+                        ",0F  \  Üú≤¥∫ºæƒ∆» –⁄  ⁄  ‚          ä      ò  ö†                          ä            ÄÇî              à  é      ä¢  ™  ¨  Æ        ∞        ¨∏ Œ‹Ú                  §  ¶  »Œ      4h                          P    R  R                              æ.j:≈8µkCD4*W)=+,0¥    ! % 8 9 @ C O Q S Y Z ` z | } Å â é ° ¢ ß ® ±G>H#\Ç Ω ÷ ◊ › · Ù ı ¸ ˇ"=?@DLQijopyEæF"ø/√ÀƒÕø∑Ä∏∆e!XπäªÉ0∂2ã«f"!#1   
+      2 & ) / J D F G " _ k a c x i v î è ë í © {J Œ æ ∆ ” Ã “ ‘ ⁄ Ó ‚ Â Î ﬁ!.#&;,9\RUVq>s  –  ø  —  ÿ  €   ‹  Ÿ # ﬂ $ ‡ 4  ' „ 0 Ï 5 Ò ( ‰ = ˘ ; ˜ ? ˚ > ˙ B ˛ A ˝ N L
+ E M H  P R T V U W X [ ] \ ^  t7 b$ s6 y< ~A ÄC B ÇE ÖH ÑG ÉF åO ãN äM †h ùe êS üg úd ûf §l ™r ´ ≤z ¥| ≥{K à 6 m0 ñ^ 	 ≈ < ¯ u8 : ˆ  ’ w: ÜI çP ØwgeáÅàåâÑjknrspihtqlo∞≤i∫jklnoêpqñóòéìèíîëïröõô–ˆÃÓÌÒÚÎÏÛ÷‡Á»… ÀŒœ—“”‘’·‚‰„ÂÊÈÍËÔÙı%&(')*-.,389:21456/07$+Õ˜;¯<˘=˙>˚?¸@˝A˛BˇC DEFGH ¶n £k •m  Õ  œ  «  …     À  »  ¿  ¬  √  ƒ  ¡ 1 Ì 3 Ô 7 Ú * Ê , Ë - È . Í + Á K	 I j- l/ d' f) g* h+ e( n1 p3 q4 r5 o2 ì[ ï] ó_ ôa öb õc ò` ≠u ¨t Æv ∞xab]c_`^d¿¬3ºΩi89<? 56≠√ˇ˛wqsuyzxrtv{}åâäãçËÁe÷/Íb%+Î‚„]
+Â,ÿ-˘M‘.‹ﬁ1c—@>ﬂÈ 	?ÁZ˚˙“˜Ï<\=[_AB˝UWVXOPpmnloikjSRTQKa`gh€”ÛG‰¯f·· ëÙORPSŒÕÀÃíÊ‰e†èåãëámkühóÜìêÇùíñiyréäx©ò®qôâßzçõsuÄn•ölà¶p°jwÅ£|ot™¢ûîïv§}úÉg{~Ñf‡’«423756ˆÙıJHIÚÒŸFEDÔÚÛÓ˙˚◊ÿ⁄≤≈≥ﬂÎ›…¯˜œ“‘”—Ï˝Ÿ»÷¸€‹ﬁı ˘–∆Ì.;4512-¸ˆ,˙Ù:UO9SM>aN˜^˝T=`Lı]˚R+@˘ÛC8AQKD<B_J¯\ F?˛PE()ËÏÚÁ ÒÊXIÎWHÍd[ÔcZÓˇÂVGÈbYÌ"!#$'&%/63*	07
+¢öõúùûü†°™©®ß¶•§´∑∏π£—’›·“÷ﬁ‚Ÿ€”◊ﬂ„‘ÿ‡‰⁄‹ƒ≈∆¡«ª¿¬∫LNKMQT∂π¥∑µ∏     3X      F        ¿          æ   !   !  .   "   "  j   #   #  :   $   $  ≈   %   %  8   &   &  µ   '   '  k   (   )  C   *   *  4   +   +     ,   ,  *   -   -  W   .   .  )   /   /  =   0   9  ‘   :   ;  +   <   <     =   =     >   >     ?   ?  0   @   @  ¥   A   A      B   C      D   D   !   E   E   %   F   G   8   H   H   @   I   I   C   J   J   O   K   K   Q   L   L   S   M   N   Y   O   O   `   P   P   z   Q   R   |   S   S   Å   T   T   â   U   U   é   V   W   °   X   Y   ß   Z   Z   ±   [   [  G   \   \  >   ]   ]  H   ^   ^  #   _   _  \   `   `  Ç   a   a   Ω   b   c   ÷   d   d   ›   e   e   ·   f   g   Ù   h   h   ¸   i   i   ˇ   j   j     k   k     l   l     m   n     o   o  "   p   p  =   q   r  ?   s   s  D   t   t  L   u   u  Q   v   w  i   x   y  o   z   z  y   {   {  E   |   |  æ   }   }  F   ~   ~  "   †   †  ø   °   °  /   ¢   ¢  √   £   £  À   §   §  ƒ   •   •  Õ   ¶   ¶  ø   ß   ß  ∑   ®   ®  Ä   ©   ©  ∏   ™   ™  ∆   ´   ´  e   ¨   ¨  !   ≠   ≠  X   Æ   Æ  π   Ø   Ø  ä   ∞   ∞  ª   ±   ±     ≤   ≥     ¥   ¥  É   µ   µ  0   ∂   ∂  ∂   ∑   ∑  2   ∏   ∏  ã   π   π     ∫   ∫  «   ª   ª  f   º   º  "   Ω   Ω  !   æ   æ  #   ø   ø  1   ¿   ¿      ¡   ¡      ¬   ¬   
+   √   √      ƒ   ƒ      ≈   ≈      ∆   ∆      «   «      »   »   2   …   …   &           )   À   À   /   Ã   Ã   J   Õ   Õ   D   Œ   œ   F   –   –   "   —   —   _   “   “   k   ”   ”   a   ‘   ‘   c   ’   ’   x   ÷   ÷   i   ◊   ◊     ÿ   ÿ   v   Ÿ   Ÿ   î   ⁄   ⁄   è   €   ‹   ë   ›   ›   ©   ﬁ   ﬁ   {   ﬂ   ﬂ  J   ‡   ‡   Œ   ·   ·   æ   ‚   ‚   ∆   „   „   ”   ‰   ‰   Ã   Â   Â   “   Ê   Ê   ‘   Á   Á   ⁄   Ë   Ë   Ó   È   È   ‚   Í   Í   Â   Î   Î   Î   Ï   Ï     Ì   Ì     Ó   Ô           ﬁ   Ò   Ò  !   Ú   Ú  .   Û   Û  #   Ù   Ù  &   ı   ı  ;   ˆ   ˆ  ,   ˜   ˜     ¯   ¯  9   ˘   ˘  \   ˙   ˙  R   ˚   ¸  U   ˝   ˝  q   ˛   ˛  >   ˇ   ˇ  s                –              ø              —              ÿ         	  	   €  
+  
+           ‹              Ÿ       #       ﬂ       $       ‡       4              '       „       0       Ï       5       Ò       (       ‰       =       ˘       ;       ˜         ?  !  !   ˚  "  "   >  #  #   ˙  $  $   B  %  %   ˛  &  &   A  '  '   ˝  (  (   N  )  )    *  *   L  +  +  
+  ,  ,   E  -  -    .  .   M  /  /    0  0   H  1  1     4  4   P  5  5    6  6   R  7  8    9  9   T  :  :    ;  ;   V  <  <    =  =   U  >  >    ?  ?   W  @  @    A  A   X  B  B    C  C   [  D  D    E  E   ]  F  F    G  G   \  H  H    I  I    J  J   ^  K  K     L  L   t  M  M  7  N  N   b  O  O  $  P  P   s  Q  Q  6  R  R   y  S  S  <  T  T   ~  U  U  A  V  V   Ä  W  W  C  X  X     Y  Y  B  Z  Z   Ç  [  [  E  \  \   Ö  ]  ]  H  ^  ^   Ñ  _  _  G  `  `   É  a  a  F  b  b   å  c  c  O  d  d   ã  e  e  N  f  f   ä  g  g  M  h  h   †  i  i  h  j  j   ù  k  k  e  l  l   ê  m  m  S  n  n   ü  o  o  g  p  p   ú  q  q  d  r  r   û  s  s  f  t  t   §  u  u  l  v  v   ™  w  w  r  x  x   ´  y  y   ≤  z  z  z  {  {   ¥  |  |  |  }  }   ≥  ~  ~  {      K  è  è   à  ê  ê   6  í  í  »  õ  õ    †  †   m  °  °  0  Ø  Ø   ñ  ∞  ∞  ^  Õ  Õ   	  Œ  Œ   ≈  –  –    “  “  %  ‘  ‘  T  ÷  ÷  Z  ÿ  ÿ  W  ⁄  ⁄  X  ‹  ‹  Y  Ê  Ê   <  Á  Á   ¯  Í  Í   u  Î  Î  8  Ù  Ù   :  ı  ı   ˆ  ¸  ¸     ˝  ˝   ’  ˛  ˛   w  ˇ  ˇ  :       Ü      I       ç      P  2  2   Ø  3  3  w  7  7    Y  Y   Û  π  π  g  ∫  ∫  e  º  º  d  ∆  «  Ö  …  …  f  ÿ  ÿ  á  Ÿ  Ÿ  Å  ⁄  ⁄  à  €  €  å  ‹  ‹  â  ›  ›  Ñ  Û  Û    ˜  ˜         j      n      r      p      i      h  	  	  t  
+  
+  q      l      o      u      v      w  #  #  x  %  (  y  6  8  }  t  u  b  ~  ~  ª  Ñ  Ñ  ∞  Ö  Ö  ≤  Ü  Ü  i  á  á  ∫  à  ä  j  å  å  m  é  è  n  ê  ê  ê  ë  °  Q  £  ©  b  ™  ´  p  ¨  Æ  ñ  Ø  Ø  é  ∞  ∞  ì  ±  …  u        è  À  À  í  Ã  Ã  î  Õ  Õ  ë  Œ  Œ  ï  œ  œ  r  ’  ÷  ö  ◊  ◊  ô      –      ˆ      Ã      Ó      Ì        	  
+  Î      Û      ÷      ‡      Á      »      Œ      —    #  ◊  $  %  ·  &  &  ‰  '  '  „  (  )  Â  *  +  È  ,  ,  Ë  -  -  Ô  .  /  Ù  0  3    4  5    6  :    ;  C    D  E  %  F  F  (  G  G  '  H  I  )  J  K  -  L  L  ,  M  M  3  N  O  8  Q  Q    R  R  :  S  S    T  T  2  U  U  1  V  X  4  Y  Z  /  [  [  7  \  \    ^  ^  $  _  _  +  ê  ê  Õ  ë  ë    í  í  ˜  ì  ì  ;  ö  ö  ¯  õ  õ  <  ¢  ¢  ˘  £  £  =  Æ  Æ  ˙  Ø  Ø  >  ∞  ∞  ˚  ±  ±  ?  ∂  ∂  ¸  ∑  ∑  @  ∫  ∫  ˝  ª  ª  A  ÿ  ÿ  ˛  Ÿ  Ÿ  B  ‹  ‹  ˇ  ›  ›  C  ﬁ  ﬁ     ﬂ  ﬂ  D  ‰  ‰    Â  Â  E  Ê  Ê    Á  Á  F  Ë  Ë    È  È  G  Ù  Ù    ı  ı  H  
+Í  
+Í  (  Ä  Ä   ¶  Å  Å  n  Ç  Ç   £  É  É  k  Ñ  Ñ   •  Ö  Ö  m  û  û   á  †  †     °  °   Õ  ¢  ¢     £  £   œ  §  §     •  •   «  ¶  ¶     ß  ß   …  ®  ®     ©  ©      ™  ™     ´  ´   À  ¨  ¨     ≠  ≠   »  Æ  Æ     Ø  Ø   ¿  ∞  ∞     ±  ±   ¬  ≤  ≤     ≥  ≥   √  ¥  ¥     µ  µ   ƒ  ∂  ∂     ∑  ∑   ¡  ∏  ∏   1  π  π   Ì  ∫  ∫   3  ª  ª   Ô  º  º   7  Ω  Ω   Ú  æ  æ   *  ø  ø   Ê  ¿  ¿   ,  ¡  ¡   Ë  ¬  ¬   -  √  √   È  ƒ  ƒ   .  ≈  ≈   Í  ∆  ∆   +  «  «   Á  »  »   K  …  …  	         I  À  À    Ã  Ã   j  Õ  Õ  -  Œ  Œ   l  œ  œ  /  –  –   d  —  —  '  “  “   f  ”  ”  )  ‘  ‘   g  ’  ’  *  ÷  ÷   h  ◊  ◊  +  ÿ  ÿ   e  Ÿ  Ÿ  (  ⁄  ⁄   n  €  €  1  ‹  ‹   p  ›  ›  3  ﬁ  ﬁ   q  ﬂ  ﬂ  4  ‡  ‡   r  ·  ·  5  ‚  ‚   o  „  „  2  ‰  ‰   ì  Â  Â  [  Ê  Ê   ï  Á  Á  ]  Ë  Ë   ó  È  È  _  Í  Í   ô  Î  Î  a  Ï  Ï   ö  Ì  Ì  b  Ó  Ó   õ  Ô  Ô  c       ò  Ò  Ò  `  Ú  Ú   ≠  Û  Û  u  Ù  Ù   ¨  ı  ı  t  ˆ  ˆ   Æ  ˜  ˜  v  ¯  ¯   ∞  ˘  ˘  x        º        Ω        [        Y        7        a        ]        c        _        ^        d          ¿   !   !  ¬   "   "  3   $   $  ;   &   &  -   0   0  9   2   3  º   4   4  i   9   :  g   <   =  8   >   >  <   ?   ?  ?   D   D      E   F  5   p   p     t   y     z   z  ;   |   |  Ê   Ä   â  ‰   ´   ¨  ∆   Æ   Æ  Ã   ¥   ¥  …   Ω   Ω      ø   ø  ¬  !  !  ¢  !  !  ß  !  !  ¡  !  !  ≠  !  !  √  !  !  Ø  !  !  ±  !"  !"  ∫  !$  !$  π  !.  !.  ƒ  !@  !@  ^  !ä  !ä  ˇ  !ã  !ã  ˛  !ê  !ê  w  !ë  !ë  q  !í  !í  s  !ì  !ì  u  !î  !ï  y  !ñ  !ñ  x  !ó  !ó  r  !ò  !ò  t  !ô  !ô  v  !ù  !ù  {  !û  !û  }  !†  !†  ~  !¢  !£    !•  !ß  Å  !©  !™  Ö  !≠  !≠  |  !æ  !æ  á  !…  !…  à  !–  !–  å  !—  !”  â  !‘  !‘  ç  !€  !€  é  !ﬁ  !ﬁ  Ë  !ﬂ  !ﬂ  Á  !Â  !Â  Ñ  !Á  !Ë  è  !Í  !Í  ‚  "   "   e  "  "  ÷  "  "  /  "  "  Í  "  "  b  "  "  %  "  "  +  "  "  Î  "  "  ‚  "	  "	    "
+  "
+  „  "  "  ]  "  "  
+  "  "  Â  "  "  ,  "  "  ÿ  "  "  -  "  "    "  "  ˘  "  "  ›  "  "  M  "  "  ‘  "  "  .  "  "  $  "#  "#  ‹  "$  "$  ﬁ  "%  "%  1  "'  "+  &  "4  "4  c  "5  "5  —  "6  "6  @  "7  "7  >  "8  "8  ﬂ  "9  "9  È  "<  "<  N  ">  ">  Ì  "C  "C  –  "E  "E  ◊  "G  "G    "H  "H     "I  "I  	  "K  "K  d  "M  "M  Ë  "T  "T  ’  "W  "W  L  "_  "_  ?  "`  "`    "a  "a  Á  "b  "b    "c  "c  Z  "d  "d    "e  "e    "j  "j  ˚  "k  "k  ˙  "l  "l  “  "m  "m    "n  "n    "o  "o    "p  "p    "q  "q    "r  "r  ˜  "s  "s  Ï  "z  "z  <  "{  "{  \  "|  "|  =  "Ç  "Ç  [  "É  "É  _  "Ñ  "Ö    "Ü  "á  A  "à  "â    "é  "é  ˝  "è  "è  U  "ê  "ê  W  "ë  "ë  V  "í  "í  X  "ì  "î  O  "ï  "ï  p  "ñ  "ó  m  "ò  "ò  l  "ô  "ô  o  "õ  "õ  i  "ú  "ú  k  "ù  "ù  j  "û  "û  S  "ü  "ü  R  "†  "†  T  "°  "°  Q  "¢  "¢  K  "£  "£  a  "§  "§  `  "•  "•  g  "¥  "¥    "∏  "∏  ¸  "ª  "ª  h  "º  "º    "Ω  "Ω    "¬  "√    "ƒ  "ƒ  €  "∆  "∆  Y  "»  "»  ”  "…  "…  Û  "   "   G  "Œ  "Œ  ⁄  "–  "–  ‡  "‚  "‚    "Ó  "Ó  ‰  "Ô  "Ô  ¯  "  "  f  "Ò  "Ò  ·  #  #  ·  #  #     #  #  ë  #  #  Ù  #  #  O  #	  #	  R  #
+  #
+  P  #  #  S  #  #  È  #  #  Œ  #  #  Õ  #  #  À  #$  #$  í  #%  #%  Ê  #&  #&  ‰  #(  #(  Â  #+  #+  „  #6  #6  e  #7  #7  †  #8  #8  è  #9  #9  å  #:  #:  ã  #;  #;  ë  #<  #<  á  #=  #=  m  #>  #>  k  #?  #?  ü  #@  #@  h  #A  #A  ó  #B  #B  Ü  #C  #C  ì  #D  #D  ê  #E  #E  Ç  #F  #F  ù  #G  #G  í  #H  #H  ñ  #I  #I  i  #J  #J  y  #K  #K  r  #L  #L  é  #M  #M  ä  #N  #N  x  #O  #O  ©  #P  #P  ò  #Q  #Q  ®  #R  #R  q  #S  #S  ô  #T  #T  â  #U  #U  ß  #V  #V  z  #W  #W  ç  #X  #X  õ  #Y  #Y  s  #Z  #Z  u  #[  #[  Ä  #\  #\  n  #]  #]  •  #^  #^  ö  #_  #_  l  #`  #`  à  #a  #a  ¶  #b  #b  p  #c  #c  °  #d  #d    #e  #e  j  #f  #f  w  #g  #g  Å  #h  #h  £  #i  #i  |  #j  #j  o  #k  #k  t  #l  #l  ™  #m  #m  ¢  #n  #n  û  #o  #p  î  #q  #q  v  #r  #r  §  #s  #s  }  #t  #t  ú  #u  #u  É  #v  #v  g  #w  #w  {  #x  #x  ~  #y  #y  Ñ  #z  #z  f  #â  #â  ‡  #ä  #ä  ’  #ã  #ã  «  #ï  #ï  Ö  #õ  #õ  4  #ú  #ù  2  #û  #û  7  #ü  #†  5  #°  #°  ˆ  #¢  #£  Ù  #§  #§  J  #•  #¶  H  #ß  #ß  Ú  #®  #®  Ò  #©  #©    #™  #™  Ÿ  #´  #´  F  #¨  #¨  E  #≠  #≠  D  #Œ  #Œ  Í  #˚  #¸  Ô  #˝  #˛  Ú  $   $   Ó  $  $  ˙  $  $  ◊  $  $  ⁄  $  $  ≤  $  $  ≈  $  $  ≥  $	  $	  ﬂ  $
+  $
+  Î  $  $    $  $  ›  $  $  …  $  $  ¯  $  $  ˜  $  $  œ  $  $  “  $  $  ‘  $  $  ”  $  $  —  $  $  Ï  $  $  ˝  $  $  Ÿ  $  $  »  $  $  ÷  $  $  ¸  $  $  €  $  $  ﬁ  $  $  ı  $  $     $   $   ˘  $!  $!  –  $#  $#  ∆  $$  $$  Ì  %   %   .  %  %    %  %  ;  %  %    %  %  4  %  %    %  %  5  %  %    %  %  1  %	  %	    %
+  %
+  2  %  %    %  %  -  %  %  ¸  %  %  ˆ  %  %    %  %  ,  %  %  ˙  %  %  Ù  %  %    %  %  :  %  %  U  %  %  O  %  %    %  %  9  %  %  S  %  %  M  %  %    %  %  >  %  %  a  %  %  N  %  %  ˜  %   %   ^  %!  %!  ˝  %"  %"  T  %#  %#    %$  %$  =  %%  %%  `  %&  %&  L  %'  %'  ı  %(  %(  ]  %)  %)  ˚  %*  %*  R  %+  %+    %,  %,  +  %-  %-    %.  %.  @  %/  %/  ˘  %0  %0  Û  %1  %1  C  %2  %2    %3  %3    %4  %4  8  %5  %5    %6  %6  A  %7  %7  Q  %8  %8  K  %9  %9  D  %:  %:    %;  %;    %<  %<  <  %=  %=    %>  %>  B  %?  %?  _  %@  %@  J  %A  %A  ¯  %B  %B  \  %C  %C     %D  %D  F  %E  %E    %F  %F  ?  %G  %G  ˛  %H  %H  P  %I  %I  E  %J  %J    %K  %K    %L  %L  (  %M  %M    %N  %N  )  %O  %O    %P  %P  Ë  %Q  %Q  Ï  %R  %R    %S  %S  Ú  %T  %T  Á  %U  %U     %V  %V  Ò  %W  %W  Ê  %X  %X  X  %Y  %Y  I  %Z  %Z  Î  %[  %[  W  %\  %\  H  %]  %]  Í  %^  %^  d  %_  %_  [  %`  %`  Ô  %a  %a  c  %b  %b  Z  %c  %c  Ó  %d  %d  ˇ  %e  %e    %f  %f  Â  %g  %g  V  %h  %h  G  %i  %i  È  %j  %j  b  %k  %k  Y  %l  %l  Ì  %m  %m  "  %n  %n  !  %o  %p  #  %q  %q  '  %r  %r  &  %s  %s  %  %t  %t  /  %u  %u  6  %v  %v  3  %w  %w  *  %x  %x  	  %y  %y    %z  %z    %{  %{    %|  %|  0  %}  %}  7  %~  %~  
+  %  %    %Ä  %Ä  ¢  %Å  %à  ö  %â  %â  ™  %ä  %ä  ©  %ã  %ã  ®  %å  %å  ß  %ç  %ç  ¶  %é  %é  •  %è  %è  §  %ê  %ê  ´  %ë  %ì  ∑  %î  %î  £  %ï  %ü  ¨  %†  %°  »  %™  %´     %≤  %≤  —  %≥  %≥  ’  %¥  %¥  ›  %µ  %µ  ·  %∂  %∂  “  %∑  %∑  ÷  %∏  %∏  ﬁ  %π  %π  ‚  %∫  %∫  Ÿ  %ª  %ª  €  %º  %º  ”  %Ω  %Ω  ◊  %æ  %æ  ﬂ  %ø  %ø  „  %¿  %¿  ‘  %¡  %¡  ÿ  %¬  %¬  ‡  %√  %√  ‰  %ƒ  %ƒ  ⁄  %≈  %≈  ‹  %∆  %»  ƒ  %…  %…  ¡  %   %   «  %À  %À  ª  %Ã  %Ã  ¿  %Œ  %Œ  ¬  %œ  %œ  ∫  %‘  %’  Ω  %Ê  %Ê  √  %Á  %Î  Ã  %Ô  %Ô  º  %ˆ  %ˆ  ø  &m  &m  `  &o  &o  a  &á  &á  ´  &†  &°  ¨  '  '  Æ  '  '  Ø  '  '  ∞  '6  '6  ±  'n  'n  L  'o  'o  N  'p  'p  K  'q  'q  M  'î  'î  ì  'ú  'û  î  '≈  '≈  Q  '∆  '∆  T  '‹  '‹  Ô  'Ê  'Ê  ∂  'Á  'Á  π  'Ë  'Ë  ¥  'È  'È  ∑  'Í  'Í  µ  'Î  'Î  ∏  'ı  '˜  ó  )  )  C  )J  )J  Ó  )á  )à  U  *   *   ˛  *  *  ˇ  +X  +X  Ò  ‡†  ‡¢  ƒ  ‡∞  ‡≥  «  ˛b  ˛b  :  ˛ˇ  ˛ˇ  ¡  ˇ[  ˇ[  I  ˇ]  ˇ]  J  ˇ˝  ˇ˝  ˆ i i  ü ’8 ’9  † ’; ’>  £ ’@ ’D  ® ’F ’F  Æ ’J ’P  ≤ ’R ’k  ∫                                               Z Z P P⁄  &  ˇL‰ˇˆ0ˇ¯ˇL Z Z P P⁄  ⁄&  ˇL‰ˇˆ‰.ˇ¯ˇL Z Z P P⁄  ⁄&  ˇL‰ˇˆ	0ˇ¯ˇL G G @ @;ˇ{@ˇv G G @ @>~Cy∞ , ∞ UXEY  K∏ QK∞SZX∞4∞(Y`f äUX∞%aπ  cc#b!!∞ Y∞ C#D≤  C`B-∞,∞ `f-∞,#!#!-∞, d≥ BC∞C ``B±CB±%C∞CTx ∞#∞CCad∞Px≤C`B∞!e!∞CC≤B ∞C#B≤C`B#∞ PXeY≤C`B-∞,∞+∞CX#!#!∞CC#∞ PXeY d ∞¿P∞&Z≤(CEcE∞EX!∞%YR[X!#!äX ∞PPX!∞@Y ∞8PX!∞8YY ±CEcEad∞(PX!±CEcE ∞0PX!∞0Y ∞¿PX f ääa ∞
+PX` ∞ PX!∞
+` ∞6PX!∞6``YYY∞%∞Cc∞ RX∞ K∞
+PX!∞CK∞PX!∞Ka∏ c∞Cc∏ bYYdaY∞+YY#∞ PXeYY d∞C#BY-∞, E ∞%ad ∞CPX∞#B∞#B!!Y∞`-∞,#!#!∞+ d±bB ∞#B∞EX±CEc±C∞`Ec∞*! ∞C ä ä∞+±0%∞&QX`PaRYX#Y!Y ∞@SX∞+!∞@Y#∞ PXeY-∞,∞	C+≤  C`B-∞,∞	#B# ∞ #Ba∞bf∞c∞`∞*-∞	,  E ∞Cc∏ b ∞ PX∞@`Yf∞c`D∞`-∞
+,≤	 CEB*!≤  C`B-∞,∞ C#D≤  C`B-∞,  E ∞+#∞ C∞%` Eä#a d ∞ PX!∞ ∞0PX∞ ∞@YY#∞ PXeY∞%#aDD∞`-∞,  E ∞+#∞ C∞%` Eä#a d∞$PX∞ ∞@Y#∞ PXeY∞%#aDD∞`-∞, ∞ #B≥ EPX!#!Y*!-∞,±E∞daD-∞,∞`  ∞CJ∞ PX ∞#BY∞CJ∞ RX ∞#BY-∞, ∞bf∞c ∏ cä#a∞C` ä` ∞#B#-∞,KTX±dDY$∞e#x-∞,KQXKSX±dDY!Y$∞e#x-∞,± CUX±C∞aB∞+Y∞ C∞%B±%B±%B∞# ∞%PX± C`∞%Bää ä#a∞*!#∞a ä#a∞*!± C`∞%B∞%a∞*!Y∞CG∞CG`∞b ∞ PX∞@`Yf∞c ∞Cc∏ b ∞ PX∞@`Yf∞c`±  #D∞C∞ >≤C`B-∞, ± ETX∞#B E∞#B∞#∞`B `∑   BBBä` ∞#B∞a±+∞ã+"Y-∞,± +-∞,±+-∞,±+-∞,±+-∞,±+-∞,±+-∞,±+-∞,±+-∞,±+-∞,±	+-∞+,# ∞bf∞c∞`KTX# .∞]!!Y-∞,,# ∞bf∞c∞`KTX# .∞q!!Y-∞-,# ∞bf∞c∞&`KTX# .∞r!!Y-∞ , ∞+± ETX∞#B E∞#B∞#∞`B `∞aµ  BBä`±+∞ã+"Y-∞!,±  +-∞",± +-∞#,± +-∞$,± +-∞%,± +-∞&,± +-∞',± +-∞(,± +-∞),± +-∞*,±	 +-∞., <∞`-∞/, `∞` C#∞`C∞%a∞`∞.*!-∞0,∞/+∞/*-∞1,  G  ∞Cc∏ b ∞ PX∞@`Yf∞c`#a8# äUX G  ∞Cc∏ b ∞ PX∞@`Yf∞c`#a8!Y-∞2, ± ETX±EB∞∞1*±EX0Y"Y-∞3, ∞+± ETX±EB∞∞1*±EX0Y"Y-∞4, 5∞`-∞5, ±EB∞Ec∏ b ∞ PX∞@`Yf∞c∞+∞Cc∏ b ∞ PX∞@`Yf∞c∞+∞ ¥     D>#8±4*!-∞6, < G ∞Cc∏ b ∞ PX∞@`Yf∞c`∞ Ca8-∞7,.<-∞8, < G ∞Cc∏ b ∞ PX∞@`Yf∞c`∞ Ca∞Cc8-∞9,± % . G∞ #B∞%IääG#G#a Xb!Y∞#B≤8*-∞:,∞ ∞#B∞%∞%G#G#a± B∞C+eä.#  <ä8-∞;,∞ ∞#B∞%∞% .G#G#a ∞#B± B∞C+ ∞`PX ∞@QX≥  ≥&YBB# ∞
+C ä#G#G#a#F`∞C∞b ∞ PX∞@`Yf∞c` ∞+ ääa ∞C`d#∞CadPX∞Ca∞C`Y∞%∞b ∞ PX∞@`Yf∞ca#  ∞&#Fa8#∞
+CF∞%∞
+CG#G#a` ∞C∞b ∞ PX∞@`Yf∞c`# ∞+#∞C`∞+∞%a∞%∞b ∞ PX∞@`Yf∞c∞&a ∞%`d#∞%`dPX!#!Y#  ∞&#Fa8Y-∞<,∞ ∞#B   ∞& .G#G#a#<8-∞=,∞ ∞#B ∞
+#B   F#G∞+#a8-∞>,∞ ∞#B∞%∞%G#G#a∞ TX. <#!∞%∞%G#G#a ∞%∞%G#G#a∞%∞%I∞%aπ  cc# Xb!Yc∏ b ∞ PX∞@`Yf∞c`#.#  <ä8#!Y-∞?,∞ ∞#B ∞
+C .G#G#a `∞ `f∞b ∞ PX∞@`Yf∞c#  <ä8-∞@,# .F∞%F∞CXPRYX <Y.±0+-∞A,# .F∞%F∞CXRPYX <Y.±0+-∞B,# .F∞%F∞CXPRYX <Y# .F∞%F∞CXRPYX <Y.±0+-∞C,∞:+# .F∞%F∞CXPRYX <Y.±0+-∞D,∞;+ä  <∞#Bä8# .F∞%F∞CXPRYX <Y.±0+∞C.∞0+-∞E,∞ ∞%∞&   F#Ga∞#B.G#G#a∞C+# < .#8±0+-∞F,±
+%B∞ ∞%∞% .G#G#a ∞#B± B∞C+ ∞`PX ∞@QX≥  ≥&YBB# G∞C∞b ∞ PX∞@`Yf∞c` ∞+ ääa ∞C`d#∞CadPX∞Ca∞C`Y∞%∞b ∞ PX∞@`Yf∞ca∞%Fa8# <#8!  F#G∞+#a8!Y±0+-∞G,± :+.±0+-∞H,± ;+!#  <∞#B#8±0+∞C.∞0+-∞I,∞  G∞ #B≤ .∞6*-∞J,∞  G∞ #B≤ .∞6*-∞K,± ∞7*-∞L,∞9*-∞M,∞ E# . Fä#a8±0+-∞N,∞
+#B∞M+-∞O,≤  F+-∞P,≤ F+-∞Q,≤ F+-∞R,≤F+-∞S,≤  G+-∞T,≤ G+-∞U,≤ G+-∞V,≤G+-∞W,≥   C+-∞X,≥  C+-∞Y,≥  C+-∞Z,≥ C+-∞[,≥  C+-∞\,≥ C+-∞],≥ C+-∞^,≥C+-∞_,≤  E+-∞`,≤ E+-∞a,≤ E+-∞b,≤E+-∞c,≤  H+-∞d,≤ H+-∞e,≤ H+-∞f,≤H+-∞g,≥   D+-∞h,≥  D+-∞i,≥  D+-∞j,≥ D+-∞k,≥  D+-∞l,≥ D+-∞m,≥ D+-∞n,≥D+-∞o,± <+.±0+-∞p,± <+∞@+-∞q,± <+∞A+-∞r,∞ ± <+∞B+-∞s,±<+∞@+-∞t,±<+∞A+-∞u,∞ ±<+∞B+-∞v,± =+.±0+-∞w,± =+∞@+-∞x,± =+∞A+-∞y,± =+∞B+-∞z,±=+∞@+-∞{,±=+∞A+-∞|,±=+∞B+-∞},± >+.±0+-∞~,± >+∞@+-∞,± >+∞A+-∞Ä,± >+∞B+-∞Å,±>+∞@+-∞Ç,±>+∞A+-∞É,±>+∞B+-∞Ñ,± ?+.±0+-∞Ö,± ?+∞@+-∞Ü,± ?+∞A+-∞á,± ?+∞B+-∞à,±?+∞@+-∞â,±?+∞A+-∞ä,±?+∞B+-∞ã,≤ EPX∞≤EX#!!YYB+∞e∞$Px±EX0Y-  Z  ˛⁄   	 1@.	L    g W _O    +3!%!!Z§˛é,˛‘,⁄˝&m;˝ä;  2  &⁄   ,@) L  h   8M9N  	  	+33#'#3'&&'2æyΩ[0›0B∏8⁄˝&¬¬·@VV?     ]  ⁄   " 9@6L  g  _   8M _9N  "   !	+332#32654&##32654&##]œdqG9+A%sdÜv:CB:w|?II?|⁄dY8Z2M.^m£>55>˝»C:<K   \ˇˆ
+‰  ;@8 Ä ~ a >M  a  ? N 
+ 	+"&54632#4&#"326534dttdbtZA;;CC;;AZt
+pbJbpqa>CC>˛∂>CC>aq     \   ⁄   '@$  _   8M _9N    
+!	+332#'32654&##\ΩGg99gGccBKKBc⁄6bC˛›Cc6PJB#AJ     d  ⁄  /@,  g  _   8M _9N    	+3!!!!!d§˛µ(˛ÿK⁄R‚P˛¸R  _  ⁄ 	 )@&  g  _   8M9N   	 		+3!!!!_Æ˛™<˛∆⁄RÚR˛º     Xˇˆ‰  >@; Ä  g a >M  a  ? N 
+ 	+"&54632#4&#"32655#530dttdbtZA;;CC;;AîÓt
+pbJbpqa>CB>˛µ>DD>dR∂aq  ]  ˚⁄  '@$  g  8M9N    	+3333##]ZÍZZÍ⁄˛»8˝&P˛∞   i  Ô⁄  )@&_ 8M  _9N    	+353#5!#3iïïÜïïR6RR˝ R    -ˇˆÔ⁄  +@( Ä 8M  a  ? N  	+"&5332653ixZG@@GZy
+vfCIIC˝¯fv     \  0⁄  -@*L  g  8M9N    	+3333##\Zl¢bµøg™i⁄˛∆:˛†˛ÜQ˛Ø  Ç  &⁄  @   8M `9N    	+33!ÇZJ⁄˝xR  H  ⁄  .@+ L   Ä  8M9N    	+333#4667#HÖ]aÖWvNq⁄˛ƒ<˝&Y1Ç4˛ápJ∞c˛ß     Z  ˛⁄  $@! L  8M9N    	+33.53#ZxﬂWxﬁ⁄˝èIQ$ö˝&qIQ%˛f    Xˇˆ ‰   -@* a >M a  ? N  	+"&54632'2654&#",brrbbrrb;??;:@@
+rj6jrri˛…jrQC>J>CC>˛∂>C  \  &⁄ 
+  +@(  g  _   8M9N   
+ 
+$!	+332##32654&##\Îfyyfëë;GG;ë⁄ubbu˛‘}I=>H    ]  !⁄   3@0	L  g  _   8M9N    !	+332##32654&##]·Ab6L?ïcèyà8DD8à⁄5^?Jj˛¡6˛ áG:;F  Hˇˆ‰ ) ;@8 Ä ~ a >M  a  ? N  ))	+"&5332654&''&&546632#4&#"0j~ZN@>J/,oEO4^=>_6ZD55B+'rIQz
+pb=EH:,AgF:X11W92??2(9 oL`r   7  !⁄  !@  _ 8M9N    	+3#5!#ˇ»Í»àRR˝x    Zˇˆ˛⁄  $@!8M  a  ? N 
+ 	+"&5332653,flZ;=<<Zk
+qa˝Ó<FF<˝Óbp    D⁄  &@# L  8M9N    	+3366736673#&&'kWS9HaB;OYqBG⁄˝‰!GG!˝‰!GG!˝&&"AA"˝⁄  #  5⁄  #@  L  8M9N    	+336673ˇ‹`éé]‹…˛‘##,˛7˛Ô   U  ⁄ 	 ,@) L   _ 8M _9N   	 		+35!5!!UI˛ºü˛∑SZ.RZ˝“R   Cˇˆ¸0  & ÑµLK∞PX@( Ä  g a AM	 a  ? N@, Ä  g a AM 9M	 a  ? NY@ " &&
+ 
+	+"&54663354#"#6632#5#'2655#"¸Ud.R5™u4@Zo\dkYV1BN†,7=
+_M3L++k&"AU`V˛Üd3;L@7M5,.5    \ˇˆ⁄  " k∂
+LK∞PX@ 8M a AM a  ? N@! 8M a AM 9M a  ? NY@ "" 	+"&'##336632'26554&#"L>PZZQ>Sbbq9@@97AA
+=6i⁄†}5>n_°^nN<C†D;F>ñ>F  Xˇˆ0  ;@8 Ä ~ a AM  a  ? N 
+ 	+"&554632#&&#"326734dxxd_uZB8;GG;8BZu
+pbñbpfX59C>ó>D:4Xf   Wˇˆ¸⁄  " k∂
+LK∞PX@ 8M a AM a  ? N@! 8M a AM 9M a  ? NY@ "" 	+"&5546323'53#5#'26554&#"RcbS>QZZP 8@@89@@
+n^°_n>5}†˝&i6=NF>ñ>F;D†C<  Tˇˆ0    >@; Ä  g a AM  a  ? N  	+"&554632!32673!54&#",awwaAa6˛®F:2AZ	t◊ C==C
+ugÇgu4^@b4=G'!EQLAGGA     7  ⁄  -@*  g _ 8M9N    !#	+3#5354633#"3#◊††RH°°@··âRsAKR:sR˛w  XˇL˚0  * o∂LK∞PX@   i aAM   _=N@$  i ;M a AM   _=NY@  %#**  %'!		+5326557##"&554632353#26554&#"°õ/6N;UbbU;NYgY8@@89??¥R5-2Z15l^t^n81_˝⁄Sa%F>i>FB8}8B    \  ˛⁄  -@*L   8M a AM9N    #$	+3336632#4&#"\ZL?SbZ?68A⁄˛„7<fX˛éc>CF@˛¢ ˇˇ U  +	&    ig    U  +& 	 '@$ _ ;M  _9N   	 		+353#5!3U√Ø	πRÇR˛,Rˇˇ UˇL√	&   i®    UˇL≥&  %@" _ ;M   _=N    !	+53265!5!#Z|>E˛¸^xe¥RD=µR˝˘ar    a  /⁄  1@.L  g   8M ;M9N    	+33373#'#aZiög±ªi†k⁄˛i„˛˙˛‡ıı       &⁄  (@% _ 8M  _  9 N 
+ 	+!"&5#5!33|IWæ& ™UFÌR˝¡"'R  <  0 $ V∂
+LK∞PX@ a  ;M9N@   ;MaAM9NY@   $ $##%$		+333663236632#4&#"#4&#"<N1&$21&5?T  J  &I%.*$$*O?˛^£!'&!˛\£!'&!˛\   \  ˛0  LµLK∞PX@  a  ;M9N@   ;M a AM9NY@    #$	+3336632#4&#"\ZL?SbZ?68A&i7<fX˛éb?CF@˛¢     Tˇ¯.   -@* a AM a  B N  	+"&554632'26554&#",cutddtuc;CC;:DDth~issi~htPB@í@BB@í@B  \ˇL0  " h∂LK∞PX@  a  ;Ma ?M=N@!   ;M a AMa ?M=NY@  ""  %$	+336632#"&'#726554&#"\ZP>SbbS>Px9@@97AA¥⁄i6=m_°_n>5}†¯<C†D;F>ñ>F  p  0  ZµLK∞PX@ Ä  a  ;M9N@ Ä   ;M a AM9NY@    "$	+3336632#54#"pZL@V]Zu;>&i5>g_//xD@˛¢    Uˇ¯. ( ;@8 Ä ~ a AM  a  B N 	 ('	+"&53332654''&&546332#&&##"#\eZ61,27Aò8>cW,Pe[3),.45éåe\SL&+,(G	M?HRO@&*$:êMU    /  ¡  5@2 Ö_;M  `  9 N 
+	 	+!"&5#53533#33cDRûûZ··!†OBCRõõR˛Ω#R  Zˇˆ˛&  $@!;M  a  ? N 
+ 	+"&5332653+_rZ@78AZt
+qa^˛¢<GG<^˛¢aq  6  "&  !@ L  ;M9N    	+336673Òªax
+x_ª&˛é!==!r˝⁄     9&  '@$ L  ;M9N    	+3366736673#&&'yZN8EZE:J^c?B&˛|55Ñ˛|55Ñ˝⁄|??˛Ñ     2  &&  &@# L  ;M9N    	+3366773#'&&'2√∑jmmj∑¬jvv™™˛Ù˛Ê¥		¥  6ˇL"&  "@ L  ;M=N    	+736673≤QÕaÇy_˛Ó¥÷˛¨,,T˝&     Z  ˛& 	 ,@) L   _ ;M _9N   	 		+35!5!!Z4˛‘ë˛∆EZzRZ˛ÜR   Pˇˆ‰   ( >@; i a >M a  ? N $"(( 		+"&54632'2654&#"7"&54632,ewweew6cC<II<<II<!!!!
+ub@buub˛¿Aa5MM=@=MM=˛¿=MÛ   Z  ⁄ 
+ )@& L 8M  `9N   
+ 
+	+3535733Z∆∆•{¢R:îg{˝xR     L  ‰  4@1L   Ä   a >M _9N    "'	+356654&#"#6632!VÛ5,E;=GZxcew9E≈LS8X*<GI>ctrb4tHŒR     Fˇˆ˛⁄  C@@L Ä ~ _ 8M  a  ? N  	+"&53326554&##57!5!!evZF<<FF<O≥˛‘í∞Zhw
+qa<FF<2<FNæRTªo[2aq  F  Í⁄  0@-L    h 8M _9N    	+!5!53353ê˛∂
+f˛ÍZ†ç≠˛?'≤˛\   Kˇˆ⁄  >@; Ä  g _ 8M  a  ? N  	+"&53326554&##!!32&evZF<<FD:«Ö˛œvenw
+qa<FF<-<FcRøoe-aq  @ˇˆ⁄  ! 8@5
+L  j 8M a  ? N !!	 	+"&&546736632'2654&#"-Fk<$©d¥4Aa7<iGAQQAAQQ
+;iE0e7/˛«9dBFk<PVEEVVEEV    Bˇˆ‰  ) 5 E@BL i a >M a  ? N+* 1/*5+5%#)) 		+"&&54675&&5466322654&#"2654&#",Ej;OB9D6a?@`6D9BO;iF8DD87EE7@PP@@PP
+6a?EdY:9W11W9:YdE?a6∞B55BB55B˛°K<=KK=<K     @  ‰  ! 6@3 L   i a >M9N  !!  &$	+3'#"&&5466322654&#"√¥
+6 ?_6<jEGj<$©AQQAAQQ99dBGj<;iE0e7˛—^VEEVVEEV    ⁄ˇˆ~ ò  @  a  ? N  	+"&54632,%--%%--
+,#%..%#,    “ˇ`u í  5K∞PX@   _=N@   W   _ OY@
+    	+3“7lF†2˛Œ  Ÿˇˆ0   -@*  a AM a?N  	+"&54632"&54632,)**))**))**))**ú(""((""(˛Z(""((""(    Õˇ`Å0   LK∞PX@  a AM _=N@ c  a A NY@  	+"&546332#3"!*+  +*!i7lFö*! ++ !*˝∆2˛Œ     ·ˇ˚w⁄   ,@) _   8M aBN  	  	+%3"&546332#j8"""◊˝˝‹""!#   Çˇ˚Â⁄  " pK∞PX@&r    i _ 8M aBN@'Ä    i _ 8M aBNY@  "!  !$!		+7532654&##532"&546332#Œ2@KKA}}Fg90U8="""◊™G;;GU5`B9[6_‹""!#   $ g4l , @)%$ 
+	 I   v	+7'7667&&''7&&5536677'&&'±EA->kl8T7lk>.AEA""g1]4(O(7}}7(O(5]1^<;   #  5⁄   G@Dh	
+  g8M9N    	+37#537#53733733#3##7#37#S'Wb"al'F'†'F'Wb"al'F'†'2†"†“A¥A““““A¥A“““¥  Kˇí>  @   Öv    	+3Kc_˛ùn¨¸T  Kˇí>  @   Öv    	+3Æ˛ù_cn¨¸T     πˇàÂH  ≥ 2+&&55467Âèùùè@_33_@x Ãö¥öÃ WT}O¥N~T   sˇàüH  ≥ 2+5>554&&'5sA^33^AèùùxWT~N¥O}TW Ãö¥öÃ     Kˇí˘> $ =@:L  i  g   Y  a  Q #!	 $$	+"&776&##5326''&633#"33ÃXh(AssA(hX--/4BKKB4/-nWO§5/P/5§OWP++§;GN:§++P     _ˇí> & 8@5	L  i   g   Y   a Q   & %!&!,!	+5326''&67&&776&##53233#"#_-/7	:33:	7/--;Y-+A}}@,-Y;nP++§9O	F9§++P'J5§5/P/5§4K'     Õˇí¬>  (@%    g W _O    	+3#3Õıõõn¨P¸ÙP     ñˇíã>  (@%   g   W   _ O    	+53#53ñõõınPP¸T     å"Ãr  @   W   _ O    	+5!å@"PP   <ˇúˇÁ  &±dD@   W   _ O    	+± D5!<‡dKK    ‹ˇ`Ü ë  5K∞PX@   _=N@   W   _ OY@
+    	+76654&'3‹8	
+e-†{*988c  ˇˇ ‹©Ü⁄]  I 	± ∏I∞5+   ˇˇ èÆ…⁄ &kñ  kj     ˘Æ_⁄  @ _   8N    	+3fÆ,˛‘    A _5  MK∞!PX@  g_ ;N@ W  g _OY@    	+%5#53533# øøXøø_√P√√P√     U ™Í   /@,   g W _O    	+5!5!UÆ˛RÆöPPPP     U AS  ≥
+ 2+75%667&&'%5U6!	"˛ ÆAWò	ôZ◊d   U AS  ≥ 2+%%5%˛RÆ˛ !	"6A◊d◊Wò		ô    ˇ˚Jﬂ    - ; ôK∞.PX@,
+  i  		i a8Ma9N@4
+  i  		i 8M a 8M9MaBNY@+/.!  64.;/;(& -!- 	+"&75&632326554&#""&55&632'26554&#"ô@KK@@KKÃÚJ˛B####B@KL@@KK@####êI>A>II>A>I˛p⁄˝&‘$A$$A$˛'I>A>II>A>IE#A$$A#  ˇ˜g‰ $ 0 õ@	(!LK∞PX@4 Ä  i a >M  a	  ?M
+ a	  ? N@1 Ä  i a >M _ 9M
+ a	  ? NY@&% +)%0&0  $$	+"&55467'&54632#4&#"73#''277'#"◊XfZL6`M7S/X5,%/√[dèëca+"S&9(4}/7;	gX9P`$G7GX0U92?.&'%¸r∞ΩÄ6*)Q3B†;393;  ˛çâˇ	  '±dD@   Y  a  Q  	+± D"&54632˛‘!&&!!&&â"##"    M”Z{ƒ8_<ı Ë    ﬂËfy    ﬂËhÑ˘9˛p˝`            ¸˛‘  X˘9ˇ[˝               œX ZX 2                                                                                                X ]X \                    X \            X d                                                                        X _X X                        X ]        X i                                            X -    X \    X Ç                    X HX Z                    X X                                                                                                    X \        X ]            X H                            X 7                X Z                                                                            X                     X #                                X U                                            X C                                                                                                X \X X                    X W            X T                                                                        X 7X X                        X \        X UX U                                                X UX U    X a        X                         X <X \                        X T                                                                                                        X \        X p            X U                            X /                X Z                                                                                            X 6X                 X 2X 6                                X Z                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        X PX ZX LX FX FX KX @    X BX @                                                                                                                                                                                                                                                                                                            X ⁄X “X ŸX Õ    X ·    X Ç            X $                    X #        X KX K                X πX sX KX _X ÕX ñ                                                        X å                X <X ‹                X ‹                            X èX ˘                                                                                                                                                                                                                                                                                                                                        X                                                                                                                                                                                                                                                                                                                                                          X A            X U    X UX U                                                                                                            X                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 X                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ˛ç                                                                                                                                                                                                                                                                                                                                                                                                                X         d   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘   ‘  t              t  t  t  t  –  –  –  –  –  –  –  –  –  –  –  –  –  –  –  –  –  –  –  $  º  º  º  º  º  º  º        d  d  d  d  d  d  d  d  d  d  d  d  »  »  (  (  d  d  d  d  d  d  ‹  @  @  @  @  @  @  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  ƒ  0  0  0  ∞  ∞  ∞  ∞  d  d  d  d  d  d  d  d  ®  ®  ®  ®  ®  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	ú  	ú  	ú  	ú  	ú  	ú  	¸  	¸  	¸  	¸  	¸  	¸  	¸  	¸  	¸  
+T  
+T  
+T  
+T  
+T  
+T  
+T  
+T  
+T  
+T  
+T  
+T  H  H  H  H  H  H  H  H  H  H  H  H  H  H  H  H  H  H  H  H  H  H  H  H  H    ®  ®  ®  ®  ®  ®  x  x  x  x                                        Ä  h  h  h  h  h  h  h  ÿ  ÿ  ÿ    <  <  <  <  <  <  <  <  <  <  <  <  <  T  ¨  ¨        h  h  h  h  h  h  h  (  ∏  ∏  ∏  ∏  ∏  ∏  ∏  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8        ú  ú  ú  ú  L  L  L  L  L  L  L  L  º  º  º  º  º                                                  t            à  Ë  Ë  Ë  Ë  Ë  Ë  Ë  Ë  Ë  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  @  ¯  L  –  h  »  X  ¸  ¸  ‡  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  »    î  $  $  ê  ê   d   d   d   d  !  !  !  !  !  !  !¥  !¥  !¥  !Ë  "   "   "   "   "   "d  "®  #X  $  $T  $†  $†  $†  $†  $†  $†  $†  $†  $†  $†  $†  $†  $†  $†  $†  $ÿ  $ÿ  $ÿ  $ÿ  $ÿ  %  %à  %à  %à  %à  %à  %®  %®  %®  %®  %®  %®  %®  %®  %¿  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  %¯  &p  &p  &p  &p  &»  &»  '  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  'D  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  (ê  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  )∏  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *   œ∏ n á  îˆ ç  `                            '       >  	   º I  	  *  	  /  	  <=  	  :y  	  T≥  	  *  	  b1  	  ì  	 	 J•  	  2Ô  	  2!  	 "S  	  6u  	  (´  	 &”  	 .˘  	 'Classic constructionClosed constructionBroken equals ligaturesRased bar f C o p y r i g h t   2 0 2 0   T h e   J e t B r a i n s   M o n o   P r o j e c t   A u t h o r s   ( h t t p s : / / g i t h u b . c o m / J e t B r a i n s / J e t B r a i n s M o n o ) H P D F A A + J e t B r a i n s   M o n o R e g u l a r 2 . 3 0 4 ; J B ; J e t B r a i n s M o n o - R e g u l a r H P D F A A + J e t B r a i n s   M o n o   R e g u l a r V e r s i o n   2 . 3 0 4 ;   t t f a u t o h i n t   ( v 1 . 8 . 4 . 7 - 5 d 5 b ) J e t B r a i n s M o n o - R e g u l a r J e t B r a i n s   M o n o   i s   a   t r a d e m a r k   o f   J e t B r a i n s   s . r . o . J e t B r a i n s P h i l i p p   N u r u l l i n ,   K o n s t a n t i n   B u l e n k o v h t t p s : / / w w w . j e t b r a i n s . c o m h t t p s : / / w w w . j e t b r a i n s . c o m T h i s   F o n t   S o f t w a r e   i s   l i c e n s e d   u n d e r   t h e   S I L   O p e n   F o n t   L i c e n s e ,   V e r s i o n   1 . 1 .   T h i s   l i c e n s e   i s   a v a i l a b l e   w i t h   a   F A Q   a t :   h t t p s : / / s c r i p t s . s i l . o r g / O F L h t t p s : / / s c r i p t s . s i l . o r g / O F L C l a s s i c   c o n s t r u c t i o n C l o s e d   c o n s t r u c t i o n B r o k e n   e q u a l s   l i g a t u r e s R a s e d   b a r   f                                 K∏ »RX±éY∞π  cp± B∂  A1! *± B@NF6&
+*± B@RJ>.
+*± Bæ¿¿¿	¿@  *± Bæ @ @ @ @ @  *π   D±$àQX∞@àXπ  dD±(àQX∏ àXπ   DY±'àQX∫Ä @àcTXπ   DYYYYY@PH8(*∏ˇÖ∞ç± D≥d DD  
+endstream
+endobj
+32 0 obj
+47780
+endobj
+33 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 756
+/Descent -244
+/CapHeight 708
+/Flags 32
+/FontBBox [ -57 -254 1085 997 ]
+/FontName /HPDFAB+UniSansHeavyCAPS
+/ItalicAngle 0
+/StemV 0
+/XHeight 708
+/FontFile2 34 0 R
+>>
+endobj
+34 0 obj
+<<
+/Length 35 0 R
+/Length1 7216
+/Length2 0
+/Length3 0
+>>
+stream
+     Ä  pOS/2àËR∑   ‹   `cmap•µ‡  <  cvt       L    fpgm      L    glyfÛ¯´.  L  (head`O  	t   6hhea√Ö  	¨   $hmtx)ÆÃ  	–  ÙlocaÜÔà\  ƒ  |maxp A  @    nameîÇoä  `  ≠post         prep      0     WÑ  äX   KäX  ^ 26           † Ô@  J        FBRC    ˚Ùˇ »º Ù   ó    ƒ                         Í   T @   ~#+37HM[gk~í…›&©¿OQÖÛ & 0 : D ¨!!&!."""+"H"e% ˚ˇˇ     †
+&.69JP^jní∆ÿ&©ºQÄÚ  0 9 D ¨!!"!."""+"H"`% ˚ˇˇˇ„ˇ¬ˇ¿ˇæˇº  ˇ∂ˇ¥ˇ≥ˇ≤ˇ∞ˇÆˇ¨ˇ™ˇóˇ  ˛Y˛˝è  ˝:˝,˝+‚˝‚ë  ·a·Y·P‡È‡É  ‡k    ﬂxﬂ\  €ﬁ              J                     @       @           >           Z   ` h     Ç   ä   ‡ ·     ‚ „./  09      :ÖÜ      áàâ  äãå  çéè      êó      òö      õú  ùû    ü      †°      ¢•      ¶ß©™ 
+                                                                       	 
+                        ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a   Ü á â ã ì ò û £ ¢ § ¶ • ß © ´ ™ ¨ ≠ Ø Æ ∞ ± ≥ µ ¥ ∂ ∏ ∑ º ª Ω æç r d e iè x ° p kó v j• à ö¢ s¶ß g wöùú:£ l |8 ® ∫ Å c n°)§õ m }ê b Ç Ö óÖÜäãáà π® ¡"îïíì©™é yâåë Ñ å É ç ä è ê ë é ï ñ   î ú ù õ Á.5 q123 z64/    º       !>7/73&'˝Ô√F
++tP¬X“ãAº˝DºähB’y˛˙ç˛ßa   ˇ˙ ‰ ¬ 	  7462"&:R;;R:_)::)*;;   'ˇˆrŒ    754632"&326=4&#"'≠xwØÆÓØ≥D/.DE0-CÈÚsÄÄsÚsÄÄeÚ%()$Ú')+     ,ˇy$ "   %!5$˛"©©     'ˇˆ=Œ   %#"&=4>32.6°úY[/q¶S~IKá'íeR3CC›H7JÄrÙMp5LW;*+*Ù(      8  %ƒ   !!!!!Ì˛·8˛Ìnõj©ƒ®    8  %ƒ 	  !!#!Ì˛ÔµÌßÙƒ™  'ˇˆUŒ   .26=#5!#"&=46325ñBB3AMAq£sr¶¶r1ZT7E",!Û'--'ñ∞tÅÇsÛqF  8  lƒ   #333#Ï¥¥Ã¥¥˛ıƒ˛Ù˝<    8   Îƒ   #Î≥ƒ˝<ƒ    8  ƒ   33!8¥ ƒ˝Ì±     'ˇˆrŒ    754632"&326=4&#"'≠xwØÆÓØ≥D/.DE0-CÈÚsÄÄsÚsÄÄeÚ%()$Ú')+     8  Vƒ 	   3!2+32>.+8zââyih*
+
+*hƒîÃïœn$43$   8  êƒ    !'##!2326&+±§ µuèã¡˛]i5,,5i··ƒrwº,Û{QQ     ˇˆ!Œ %  ?>76&'.54632.#"&q=<6$H2]}óiï]u$`G[+@F+W{CAÄvj"
+$s_cqqZ&(.%1O2Ad/B       ;≈   ###5!;ºµº-˝Â™  4ˇÛiƒ   >53.5È*;<*µ'BU]^UA&ƒ˛) -
+
+- ◊˛)6Y:)):Y6◊    m√‡›._<ı Ë    œÖ7l    œ∑ö™ˇ«ˇ=Â             Ùˇ »Lˇ«˛o=               ΩY          ∂                                                                                                                                                                                       ô '                                                            Q ,            F '    L 8@ 8p '§ 8# 8         8        ô 'j 8    Ü 84 I õ 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Óˇ¸   , , , , , , , , , , , , , , , , , @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ j j j j j j j j j j j j j j j j x x x x § § º – ˛$$$444^~~¢ﬁ   Ω >             @         V        `          `        z       E Å        ∆        ›        Ï       V ¸       4R      	 Ü      
+ `ï       ı              
+  	   ¿  	  4›  	    	  ä  	  .©  	  ◊  	   ı  	  ¨  	  h¡  	 	 )  	 
+ ¿G  	  ,  	  3  	  CCopyright (c) 2014 by © 2009 Designed by Svetoslav Simov © Fontfabric, Inc. All rights reserved.HPDFAB+Uni Sans Heavy CAPSRegular2009DesignedbySvetoslavSimovFontfabric,Inc: Uni Sans Heavy CAPS: 2014HPDFAB+UniSansHeavyCAPSVersion 001.029UniSansHeavyCAPSUni Sans Heavy is a trademark of © 2009 Designed by Svetoslav Simov © Fontfabric, Inc.© 2009 Designed by Svetoslav Simov © Fontfabric, IncSvetoslav SimovCopyright (c) 2002 by © 2009 Designed by Svetoslav Simov © Fontfabric, Inc. All rights reserved.http://fontfabric.com/Uni SansHeavy CAPS C o p y r i g h t   ( c )   2 0 1 4   b y   ©   2 0 0 9   D e s i g n e d   b y   S v e t o s l a v   S i m o v   ©   F o n t f a b r i c ,   I n c .   A l l   r i g h t s   r e s e r v e d . H P D F A B + U n i   S a n s   H e a v y   C A P S R e g u l a r 2 0 0 9 D e s i g n e d b y S v e t o s l a v S i m o v F o n t f a b r i c , I n c :   U n i   S a n s   H e a v y   C A P S :   2 0 1 4 H P D F A B + U n i S a n s H e a v y C A P S V e r s i o n   0 0 1 . 0 2 9 U n i S a n s H e a v y C A P S U n i   S a n s   H e a v y   i s   a   t r a d e m a r k   o f   ©   2 0 0 9   D e s i g n e d   b y   S v e t o s l a v   S i m o v   ©   F o n t f a b r i c ,   I n c . ©   2 0 0 9   D e s i g n e d   b y   S v e t o s l a v   S i m o v   ©   F o n t f a b r i c ,   I n c S v e t o s l a v   S i m o v C o p y r i g h t   ( c )   2 0 0 2   b y   ©   2 0 0 9   D e s i g n e d   b y   S v e t o s l a v   S i m o v   ©   F o n t f a b r i c ,   I n c .   A l l   r i g h t s   r e s e r v e d . h t t p : / / f o n t f a b r i c . c o m / U n i   S a n s H e a v y   C A P S                                  
+endstream
+endobj
+35 0 obj
+7216
+endobj
+xref
+0 36
+0000000000 65535 f
+0000000015 00000 n
+0000000064 00000 n
+0000000171 00000 n
+0000000232 00000 n
+0000001063 00000 n
+0000001755 00000 n
+0000001951 00000 n
+0000009609 00000 n
+0000009629 00000 n
+0000009816 00000 n
+0000018081 00000 n
+0000018102 00000 n
+0000018290 00000 n
+0000026804 00000 n
+0000026825 00000 n
+0000027013 00000 n
+0000035851 00000 n
+0000035872 00000 n
+0000036060 00000 n
+0000045973 00000 n
+0000045994 00000 n
+0000046182 00000 n
+0000055707 00000 n
+0000055728 00000 n
+0000055916 00000 n
+0000065555 00000 n
+0000065576 00000 n
+0000065774 00000 n
+0000073854 00000 n
+0000073875 00000 n
+0000074100 00000 n
+0000121973 00000 n
+0000121995 00000 n
+0000122212 00000 n
+0000129520 00000 n
+trailer
+<<
+/Root 1 0 R
+/Info 3 0 R
+/Size 36
+>>
+startxref
+129541
+%%EOF
