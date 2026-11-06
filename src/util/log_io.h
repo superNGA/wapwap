@@ -36,10 +36,12 @@
 // Enable / Disable glyphs through LOGS_ALLOW_GLYPHS macro
 #if LOGS_ALLOW_GLYPHS
 #define LOGWIN_ICON  "[\u2714] "
+#define LOGFATAL_ICON "[FATAL] "
 #define LOGFAIL_ICON "[\u2718] "
 #define LOGWARN_ICON "[\u26A0] "
 #else
 #define LOGWIN_ICON  "[OK] "
+#define LOGFATAL_ICON "[FATAL] "
 #define LOGFAIL_ICON "[ER] "
 #define LOGWARN_ICON "[FU] "
 #endif
@@ -47,9 +49,10 @@
 
 #define LOG(fmt, ...)      printf("[ %s ] " LOGCLR_CYAN fmt LOGCLR_RESET "\n", __func__, ##__VA_ARGS__)
 
-#define FAIL_LOG(fmt, ...) printf("[ %s ]"  LOGCLR_RED    LOGFAIL_ICON fmt LOGCLR_RESET "\n", __func__, ##__VA_ARGS__)
-#define WARN_LOG(fmt, ...) printf("[ %s ]"  LOGCLR_YELLOW LOGWARN_ICON fmt LOGCLR_RESET "\n", __func__, ##__VA_ARGS__)
-#define WIN_LOG(fmt, ...)  printf("[ %s ]"  LOGCLR_GREEN  LOGWIN_ICON  fmt LOGCLR_RESET "\n", __func__, ##__VA_ARGS__)
+#define FATAL_LOG(fmt, ...) printf("[ %s ]"  LOGCLR_RED    LOGFATAL_ICON fmt LOGCLR_RESET "\n", __func__, ##__VA_ARGS__)
+#define FAIL_LOG(fmt, ...)  printf("[ %s ]"  LOGCLR_RED    LOGFAIL_ICON fmt LOGCLR_RESET "\n", __func__, ##__VA_ARGS__)
+#define WARN_LOG(fmt, ...)  printf("[ %s ]"  LOGCLR_YELLOW LOGWARN_ICON fmt LOGCLR_RESET "\n", __func__, ##__VA_ARGS__)
+#define WIN_LOG(fmt, ...)   printf("[ %s ]"  LOGCLR_GREEN  LOGWIN_ICON  fmt LOGCLR_RESET "\n", __func__, ##__VA_ARGS__)
 
 
 #else // Disabled logging macros...

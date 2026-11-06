@@ -25,6 +25,8 @@ echo "libharu static library found"
 
 SOURCES=(
 	./src/main.cpp
+	./src/config/config.c
+	./src/tasks/tasks.c
 	)
 
 g++ "${SOURCES[@]}" "$LIBHARU_SLIB" -lz -o "$OUTPUT_DIR"
