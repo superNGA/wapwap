@@ -109,9 +109,8 @@ void parse_configfile(config *c, const char *file)
 		else if (strncmp(fileline, TEXT_CLR, sizeof(TEXT_CLR) - 1) == 0) {
 			store_csv(&c->text_clr, value);
 		}	
-
-		free(fileline);
 	}
+	free(fileline);
 
 
 	fclose(f);

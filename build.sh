@@ -3,7 +3,8 @@
 OUTPUT_DIR="./build/wapwap.out"
 LIBHARU_SLIB="./build/libharu.a"
 LIBHARU_BUILDSCRIPT="./build_libharu.sh"
-FLAGS="-g" #-fsanitize=address"
+FLAGS="-g"
+# FLAGS="-fsanitize=address"
 
 # fix directory
 cd "$(dirname ${BASH_SOURCE[0]})"
@@ -30,7 +31,8 @@ SOURCES=(
 	./src/tasks/tasks.cpp
 	)
 
-g++ "$FLAGS" "${SOURCES[@]}" "$LIBHARU_SLIB" -lz -o "$OUTPUT_DIR"
+# g++ "$FLAGS" "${SOURCES[@]}" "$LIBHARU_SLIB" -lz -o "$OUTPUT_DIR"
+g++ "$FLAGS" "${SOURCES[@]}" -lhpdf -lz -o "$OUTPUT_DIR"
 if [ ! -e "$OUTPUT_DIR" ]; then
 	echo "Failed build"
 	exit 1

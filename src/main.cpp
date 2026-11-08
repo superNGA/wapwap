@@ -47,41 +47,44 @@
 // page margin
 const float MARGIN_TOP    = 10.0;
 const float MARGIN_BOTTOM = 10.0;
-const float MARGIN_LEFT   = 10.0;
-const float MARGIN_RIGHT  = 10.0;
+
+const float TEXTMARGIN_LEFT     = 10.0;
+const float TEXTMARGIN_RIGHT    = 10.0;
+
+const float CODEMARGIN_LEFT     = 20.0;
+const float CODEMARGIN_RIGHT    = 20.0;
+const float CODEBOXMARGIN_LEFT  = 10.0;
+const float CODEBOXMARGIN_RIGHT = 10.0;
+
+const float HEADINGMARGIN_LEFT  = 10.0;
+const float HEADINGMARGIN_RIGHT = 10.0;
 
 
 
-static int ww_do_task        (struct wapwap_state *s, struct config *c, struct file_entity *task);
-static int ww_gen_linelist   (struct wapwap_state *s, struct config *c, struct file_entity *task, std::vector<txtline> *ll, bool linenum);
-static int ww_line_chop_n_tag(struct wapwap_state *s, struct config *c, std::string *l, std::vector<txtline> *ll, bool linenum);
-static int ww_split_line     (HPDF_Page page, float split_width, const char *line, std::vector<char*> *lines_out);
-static int ww_is_comment     (const char *c);
-static int ww_getline_fmt    (FILE *f, std::string *line);
-static void ww_add_linenum(std::string *l, int num);
+static int       ww_do_task            (struct wapwap_state *s, struct config *c, struct file_entity *task);
+static int       ww_gen_linelist       (struct wapwap_state *s, struct config *c, struct file_entity *task, std::vector<txtline> *ll, bool linenum, float split_width);
+static int       ww_line_chop_n_tag    (struct wapwap_state *s, struct config *c, std::string *l, std::vector<txtline> *ll, bool linenum, float split_width);
+static int       ww_split_line         (HPDF_Page page, float split_width, const char *line, std::vector<char*> *lines_out);
+static int       ww_is_comment         (const char *c);
+static int       ww_getline_fmt        (FILE *f, std::string *line);
+static void      ww_add_linenum        (std::string *l, int num);
 
-// PDF output...
-static int ww_add_heading    (struct wapwap_state *s, const char *msg);
-static int ww_add_text       (struct wapwap_state *s, std::vector<txtline> *ll);
-static int ww_add_code       (struct wapwap_state *s, std::vector<txtline> *ll);
-static int ww_box_the_page   (float it, float xpos, HPDF_Page page, int max_boxes, float width, float height, struct vec3 clr_a, struct vec3 clr_b);
-static int ww_addlinebg      (HPDF_Page page, struct vec3 clr, float x, float y, float width, float height);
-static int ww_stroke_codebox (HPDF_Page page, bool top, bool bottom, float tx, float ty, float bx, float by);
+static int       ww_add_heading        (struct wapwap_state *s, const char *msg);
+static int       ww_add_text           (struct wapwap_state *s, std::vector<txtline> *ll);
+static int       ww_add_code           (struct wapwap_state *s, std::vector<txtline> *ll);
+static int       ww_box_the_page       (float it, float xpos, HPDF_Page page, int max_boxes, float width, float height, struct vec3 clr_a, struct vec3 clr_b);
+static int       ww_addlinebg          (HPDF_Page page, struct vec3 clr, float x, float y, float width, float height);
+static int       ww_stroke_codebox     (HPDF_Page page, bool top, bool bottom, float tx, float ty, float bx, float by);
 
-static HPDF_Page ww_get_active_page(struct wapwap_state *s);
-static int ww_is_lastpage_dirty(struct wapwap_state *c);
-static int ww_pushback_a4page(struct wapwap_state *s);
-static int ww_textout        (struct wapwap_state *c, const char *msg, float xoff);
-static int ww_copy_page_stats(HPDF_Page from, HPDF_Page to);
+static HPDF_Page ww_get_active_page    (struct wapwap_state *s);
+static int       ww_pushback_a4page    (struct wapwap_state *s);
+static int       ww_textout            (struct wapwap_state *s, const char *msg, float xoff);
+static int       ww_copy_page_stats    (HPDF_Page from, HPDF_Page to);
 
+static HPDF_Font ww_init_font          (HPDF_Doc pdf, const char *font_file);
+static float     ww_get_curfont_height (HPDF_Page page);
+static float     ww_get_curfont_descend(HPDF_Page page);
 
-// font...
-static HPDF_Font ww_init_font(HPDF_Doc pdf, const char *font_file);
-static float ww_get_curfont_height(HPDF_Page page);
-static float ww_get_curfont_descend(HPDF_Page page);
-
-
-static void fatal_error_exit();
 void err_handler(HPDF_STATUS error_no, HPDF_STATUS detail_no, void *user_data);
 
 
@@ -157,30 +160,37 @@ static int ww_do_task(struct wapwap_state *s, struct config *c, struct file_enti
 	HPDF_Font font      = NULL;
 	float     font_size = -1.0;
 	bool      linenum   = false;
+	float     split_width = HPDF_Page_GetWidth(ww_get_active_page(s));
 
 	switch (task->type) {
 	case FILEENTITY_CODE_BLOCK:
 		font      = s->codetext_font;
 		font_size = c->code_size;
 		linenum   = true;
+		split_width -= CODEMARGIN_LEFT + CODEMARGIN_RIGHT;
 		break;
 	case FILEENTITY_HEADING:
 		font      = s->heading_font;
 		font_size = c->heading_size;
+		split_width -= HEADINGMARGIN_LEFT + HEADINGMARGIN_RIGHT;
 		break;
 	case FILEENTITY_TEXT:
 		font      = s->text_font;
 		font_size = c->text_size;
+		split_width -= TEXTMARGIN_LEFT + TEXTMARGIN_RIGHT;
 		break;
 	}
 	HPDF_Page_SetFontAndSize(ww_get_active_page(s), font, font_size);
 
-	std::vector<txtline> ll; ll.clear();
-	if (ww_gen_linelist(s, c, task, &ll, linenum) != OK)
-		return ER;
 
+	std::vector<txtline> ll; ll.clear();
+	if (ww_gen_linelist(s, c, task, &ll, linenum, split_width) != OK)
+		return ER;
 	if (ll.empty())
 		return OK;
+
+	for (size_t i = 0; i < ll.size(); ++i)
+		printf("[%d] %s\n", ll[i].flags, ll[i].txt);
 
 	switch (task->type) {
 	case FILEENTITY_CODE_BLOCK:
@@ -193,19 +203,18 @@ static int ww_do_task(struct wapwap_state *s, struct config *c, struct file_enti
 		ww_add_text(s, &ll);
 		break;
 	}
-	for (size_t i = 0; i < ll.size(); ++i)
-		printf("[%d] %s\n", ll[i].flags, ll[i].txt);
 
 	// free this linelist
 	for (size_t i = 0; i < ll.size(); ++i)
 		free(ll[i].txt);
+
 	return OK;
 }
 
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-static int ww_gen_linelist(struct wapwap_state *s, struct config *c, struct file_entity *task, std::vector<txtline> *ll, bool linenum)
+static int ww_gen_linelist(struct wapwap_state *s, struct config *c, struct file_entity *task, std::vector<txtline> *ll, bool linenum, float split_width)
 {
 	for (int i = 0; i < task->data.size(); ++i) {
 		entity_data *d      = &task->data[i];
@@ -215,7 +224,7 @@ static int ww_gen_linelist(struct wapwap_state *s, struct config *c, struct file
 		case ENTITYDATA_TEXT:
 		{
 			std::string line(d->data);
-			ww_line_chop_n_tag(s, c, &line, ll, linenum);
+			ww_line_chop_n_tag(s, c, &line, ll, linenum, split_width);
 			break;
 		}
 		case ENTITYDATA_FILE:
@@ -228,7 +237,7 @@ static int ww_gen_linelist(struct wapwap_state *s, struct config *c, struct file
 
 			std::string line;
 			while (ww_getline_fmt(f, &line) == OK) {
-				ww_line_chop_n_tag(s, c, &line, ll, linenum);
+				ww_line_chop_n_tag(s, c, &line, ll, linenum, split_width);
 				line.clear();
 			}
 
@@ -245,7 +254,7 @@ static int ww_gen_linelist(struct wapwap_state *s, struct config *c, struct file
 
 			std::string line;
 			while (ww_getline_fmt(f, &line) == OK) {
-				ww_line_chop_n_tag(s, c, &line, ll, linenum);
+				ww_line_chop_n_tag(s, c, &line, ll, linenum, split_width);
 				line.clear();
 			}
 
@@ -261,7 +270,7 @@ static int ww_gen_linelist(struct wapwap_state *s, struct config *c, struct file
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-static int ww_line_chop_n_tag(struct wapwap_state *s, struct config *c, std::string *l, std::vector<txtline> *ll, bool linenum)
+static int ww_line_chop_n_tag(struct wapwap_state *s, struct config *c, std::string *l, std::vector<txtline> *ll, bool linenum, float split_width)
 {
 	bool is_comment = ww_is_comment(l->c_str());
 
@@ -271,13 +280,12 @@ static int ww_line_chop_n_tag(struct wapwap_state *s, struct config *c, std::str
 
 
 	HPDF_Page curpage = ww_get_active_page(s);
-	float pwidth = HPDF_Page_GetWidth(curpage);
 	std::vector<char*> split_lines; split_lines.clear();
-	ww_split_line(curpage, pwidth - MARGIN_LEFT - MARGIN_RIGHT, l->c_str(), &split_lines);
+	ww_split_line(curpage, split_width, l->c_str(), &split_lines);
 
 	// empty line
 	if (split_lines.empty())
-		split_lines.push_back((char*)calloc(1,1));
+		split_lines.push_back((char*)calloc(1, 1));
 
 	int flags = 0;
 	if (is_comment)
@@ -306,20 +314,12 @@ static int ww_add_code(struct wapwap_state *s, std::vector<txtline> *ll)
 	HPDF_Page_SetFontAndSize(active_page, s->codetext_font, s->config->code_size); 
 	float font_height = ww_get_curfont_height(active_page);
 	float font_descend = abs(ww_get_curfont_descend(active_page));
-
-	// Split file into lines of length (in pxls) less than max_line_width
-	static const float CODEMARGIN_LEFT  = MARGIN_LEFT; //  + 10.0;
-	static const float CODEMARGIN_RIGHT = MARGIN_RIGHT; // + 10.0;
-	static const float BOXMARGIN_LEFT   = MARGIN_LEFT; //  + 5.0;
-	static const float BOXMARGIN_RIGHT  = MARGIN_RIGHT; // + 5.0;
-	float codebox_width = pwidth - BOXMARGIN_LEFT - BOXMARGIN_RIGHT;
-	float max_line_width = pwidth - CODEMARGIN_LEFT - CODEMARGIN_RIGHT;
+	float codebox_width = pwidth - CODEBOXMARGIN_LEFT - CODEBOXMARGIN_RIGHT;
 
 
 	int total_boxes = ll->size();
 	int boxes_left = total_boxes;
 	HPDF_Page last_page_boxed = NULL;
-	bool last_line_comment = false;
 	for (size_t i = 0; i < ll->size(); ++i) {
 		active_page = ww_get_active_page(s);
 
@@ -329,7 +329,7 @@ static int ww_add_code(struct wapwap_state *s, std::vector<txtline> *ll)
 
 			int box_drawn = ww_box_the_page(
 					box_it, // draw start Y pos
-					BOXMARGIN_LEFT, // box X pos
+					CODEBOXMARGIN_LEFT, // box X pos
 					active_page, // active page
 					boxes_left, // max boxes that can be drawn
 					codebox_width, // box width  
@@ -346,9 +346,9 @@ static int ww_add_code(struct wapwap_state *s, std::vector<txtline> *ll)
 					active_page, // curpage
 					boxes_left == total_boxes, // draw top line
 					boxes_left == box_drawn, // draw bottom line
-					BOXMARGIN_LEFT, // top X
+					CODEBOXMARGIN_LEFT, // top X
 					box_it, // top Y
-					pwidth - BOXMARGIN_RIGHT, // bottom X
+					pwidth - CODEBOXMARGIN_RIGHT, // bottom X
 					box_it - total_boxes_height); // bottom Y
 
 			// deducted drawn boxes
@@ -356,9 +356,9 @@ static int ww_add_code(struct wapwap_state *s, std::vector<txtline> *ll)
 			last_page_boxed = active_page;
 		}
 
-		txtline lineinfo = (*ll)[i]; // size of txtline struct is "trivial"
-		HPDF_Font font = (lineinfo.flags & lineflag_comment) ? s->codecomment_font : s->codetext_font;
-		struct vec3 txt_clr = (lineinfo.flags & lineflag_comment) ? s->config->comment_clr : s->config->code_clr;
+		txtline   lineinfo = (*ll)[i]; // size of txtline struct is "trivial"
+		HPDF_Font font     = (lineinfo.flags & lineflag_comment) ? s->codecomment_font : s->codetext_font;
+		vec3      txt_clr  = (lineinfo.flags & lineflag_comment) ? s->config->comment_clr : s->config->code_clr;
 
 		HPDF_Page_SetRGBFill(active_page, txt_clr.x, txt_clr.y, txt_clr.z);
 		HPDF_Page_SetFontAndSize(ww_get_active_page(s), font, 8.0);
@@ -438,16 +438,13 @@ static int ww_pushback_a4page(struct wapwap_state *s)
 ///////////////////////////////////////////////////////////////////////////
 static int ww_add_heading(struct wapwap_state *s, const char *msg)
 {
-	static const float HEADING_MARGIN_LEFT = MARGIN_LEFT;
-	static const float HEADING_MARGIN_RIGHT = MARGIN_RIGHT;
-
 	HPDF_Page active_page = ww_get_active_page(s);
 
 	HPDF_Page_SetFontAndSize(active_page, s->heading_font, s->config->heading_size);
 	float font_height = ww_get_curfont_height(active_page);
 	float font_descend = abs(ww_get_curfont_descend(active_page));
 
-	float heading_width = HPDF_Page_GetWidth(active_page) - HEADING_MARGIN_LEFT - HEADING_MARGIN_RIGHT;
+	float heading_width = HPDF_Page_GetWidth(active_page) - HEADINGMARGIN_LEFT - HEADINGMARGIN_RIGHT;
 	float msg_width = HPDF_Page_TextWidth(active_page, msg);
 
 
@@ -455,7 +452,7 @@ static int ww_add_heading(struct wapwap_state *s, const char *msg)
 	HPDF_Page_SetRGBStroke(active_page, s->config->heading_decor_clr.x, s->config->heading_decor_clr.y, s->config->heading_decor_clr.z);
 	static const float HEADING_DECOR_LINEGAP = 6.0;
 	static const float HEADING_DECORD_TILT = -3.5;
-	const float decor_start_pos = HEADING_MARGIN_LEFT + msg_width + abs(HEADING_DECORD_TILT * 2.0); // Makes sure decor appears on right of the heading text.
+	const float decor_start_pos = HEADINGMARGIN_LEFT + msg_width + abs(HEADING_DECORD_TILT * 2.0); // Makes sure decor appears on right of the heading text.
 	for (float x = decor_start_pos; x < heading_width; x += HEADING_DECOR_LINEGAP) {
 		HPDF_Page_MoveTo(active_page, x + HEADING_DECORD_TILT, s->it - font_descend);
 		HPDF_Page_LineTo(active_page, x - HEADING_DECORD_TILT, s->it - font_height - font_descend);
@@ -463,7 +460,7 @@ static int ww_add_heading(struct wapwap_state *s, const char *msg)
 	}
 
 	HPDF_Page_SetRGBFill(active_page, s->config->heading_clr.x, s->config->heading_clr.y, s->config->heading_clr.z);
-	ww_textout(s, msg, HEADING_MARGIN_LEFT);
+	ww_textout(s, msg, HEADINGMARGIN_LEFT);
 	return OK;
 }
 
@@ -476,7 +473,7 @@ static int ww_add_text(struct wapwap_state *s, std::vector<txtline> *ll)
 	HPDF_Page_SetFontAndSize(curpage, s->text_font, s->config->text_size);
 	HPDF_Page_SetRGBFill(curpage, s->config->text_clr.x, s->config->text_clr.y, s->config->text_clr.z);
 	for (size_t i = 0; i < ll->size(); ++i)
-		ww_textout(s, (*ll)[i].txt, MARGIN_LEFT);
+		ww_textout(s, (*ll)[i].txt, TEXTMARGIN_LEFT);
 	return OK;
 }
 
@@ -495,40 +492,40 @@ static int ww_addlinebg(HPDF_Page page, struct vec3 clr, float x, float y, float
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-static int ww_textout(struct wapwap_state *c, const char *msg, float xoff)
+static int ww_textout(struct wapwap_state *s, const char *msg, float xoff)
 {
 	// The new line is placed, treating the c->it (iterator) as the top-left corner
 	// of the line.
 
-	HPDF_Page active_page = ww_get_active_page(c);
+	HPDF_Page active_page = ww_get_active_page(s);
 	HPDF_Font active_font = HPDF_Page_GetCurrentFont(active_page);
 	float font_height = ww_get_curfont_height(active_page);
 	float page_height = HPDF_Page_GetHeight(active_page);
 
 	// iterator too high on the page?
-	if (c->it > page_height - MARGIN_TOP)
-		c->it = page_height - MARGIN_TOP;
+	if (s->it > page_height - MARGIN_TOP)
+		s->it = page_height - MARGIN_TOP;
 
 
 	// NOTE : We can always write at c->it - font_height (this line) because when 
 	// c->it - font_height * 2.0 (next line) goes out of bound, we push_back new page 
 	// (in which case c->it shall also be moved to the next (new) page).
 	HPDF_Page_BeginText(active_page);
-	HPDF_Page_TextOut(active_page, xoff, c->it - font_height, msg);
-	++(c->lines_lastpage);
+	HPDF_Page_TextOut(active_page, xoff, s->it - font_height, msg);
+	++(s->lines_lastpage);
 	HPDF_Page_EndText(active_page);
-	c->it -= font_height;
+	s->it -= font_height;
 
 
 	// Next line out of range? pushback new page
-	if (c->it - font_height < MARGIN_BOTTOM) {
-		ww_pushback_a4page(c);
+	if (s->it - font_height < MARGIN_BOTTOM) {
+		ww_pushback_a4page(s);
 
-		HPDF_Page new_page = ww_get_active_page(c);
+		HPDF_Page new_page = ww_get_active_page(s);
 		ww_copy_page_stats(active_page, new_page);
 
 		active_page = new_page;
-		c->it = page_height - MARGIN_TOP;
+		s->it = page_height - MARGIN_TOP;
 	}
 
 	return OK;
@@ -560,9 +557,9 @@ static int ww_split_line(HPDF_Page page, float split_width, const char *line, st
 	while (*line != '\0') {
 		HPDF_REAL real_width = 0.0;
 		size_t split_len = HPDF_Page_MeasureText(page, line, split_width, false, &real_width);
-		char   *line_buf = (char*)calloc(split_len + 2, 1);
-		strncpy(line_buf, line, split_len);
 
+		char *line_buf = (char*)calloc(split_len + 2, 1);
+		strncpy(line_buf, line, split_len);
 		lines_out->push_back(line_buf);
 
 		line += split_len;
@@ -621,26 +618,18 @@ static int ww_getline_fmt(FILE *f, std::string *line)
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-static int ww_is_lastpage_dirty(struct wapwap_state *c)
-{
-	return c->lines_lastpage > 0;
-}
-
-
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
 static HPDF_Font ww_init_font(HPDF_Doc pdf, const char *font_file)
 {
 	const char *font_name = HPDF_LoadTTFontFromFile(pdf, font_file, HPDF_TRUE);
 	if (!font_name) {
 		FATAL_LOG("failed to open font file : %s", font_file);
-		fatal_error_exit();
+		exit(1);
 	}
 
 	HPDF_Font font = HPDF_GetFont(pdf, font_name, "UTF-8");
 	if (!font) {
 		FATAL_LOG("failed to construct font from fontfile : %s", font_file);
-		fatal_error_exit();
+		exit(1);
 	}
 
 	return font;
@@ -694,7 +683,7 @@ static void ww_add_linenum(std::string *s, int num)
 {
 	// "16 digit" lines of code is big enough. 
 	char tmp[16] = {0};
-	snprintf(tmp, sizeof(tmp), " %3d ", num);
+	snprintf(tmp, sizeof(tmp), "%3d ", num);
 	s->insert(0, tmp);
 }
 
@@ -704,13 +693,5 @@ static void ww_add_linenum(std::string *s, int num)
 void err_handler(HPDF_STATUS error_no, HPDF_STATUS detail_no, void *user_data) 
 { 
 	FAIL_LOG("libharu error [ %d ], detail no %d\n", (int)error_no, (int)detail_no); 
-	exit(1);
-}
-
-
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-static void fatal_error_exit()
-{
 	exit(1);
 }

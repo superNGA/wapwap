@@ -90,7 +90,6 @@ int parse_taskfile(std::vector<file_entity>* tasks_out, const char *file)
 		line_buf = NULL;
 	}
 
-	// if (vec_empty(vec_temp_entities)) {
 	if (tasks_out->empty()) {
 		WARN_LOG("task file %s contains no valid tasks", file);
 		goto FAILURE_EXIT;
