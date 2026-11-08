@@ -1,1 +1,2 @@
-<c>[t]print out simple text in code block
+<h>[c]echo $SHELL
+<t>[c]echo $PWD;echo $PWD;echo $PWD;echo $PWD;echo $PWD;echo $PWD;echo $PWD;echo $PWD;echo $PWD;echo $PWD;echo $PWD;echo $PWD;echo $PWD;echo $PWD;echo $PWD;echo $PWD;echo $PWD;echo $PWD;echo $PWD;
