@@ -14,22 +14,21 @@
 #include <stdbool.h>
 
 #include "../util/log_io.h"
-#include "../ilib/ilib_vector.h"
 
 
 static char* find_char(char *haystack, char needle);
-static int find_entity_data(char *src, enum entity_data_type *datatype_out, char **data_out);
+static int find_entity_data(char *src, enum entity_data_type *datatype_out, char **data_out, char **start_out);
 static int calc_entity_type(char *line_start, enum file_entity_type *type_out);
-static struct file_entity* alloc_fileentity(char *line_buf, enum file_entity_type type, struct entity_data *entitydata_vec, size_t entitydata_count);
-static void free_fileentity(struct file_entity *e);
+static int collect_all_ent_data(char *src, std::vector<entity_data> *out);
 
 static const char* get_file_entity_type_name(enum file_entity_type t);
 static const char* get_entity_data_type_name(enum entity_data_type t);
 
 
+
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-int parse_taskfile(struct tasks *t, const char *file)
+int parse_taskfile(std::vector<file_entity>* tasks_out, const char *file)
 {
 	FILE *f = fopen(file, "r");
 	if (!f) {
@@ -38,8 +37,8 @@ int parse_taskfile(struct tasks *t, const char *file)
 	}
 
 
-	struct file_entity **vec_temp_entities = NULL;
-	struct entity_data *vec_temp_data = NULL;
+	std::vector<entity_data> ent_data; ent_data.clear();
+
 
 	char *line_buf = NULL;
 	size_t linelen = 0;
@@ -51,6 +50,16 @@ int parse_taskfile(struct tasks *t, const char *file)
 			goto FAILURE_EXIT;
 		}
 
+		// discard any new line chars. Causes trouble with file names n shit
+		char *tmp = line_buf;
+		while (*tmp != '\0') {
+			if (*tmp == '\n') {
+				*tmp = '\0';
+				break;
+			}
+			++tmp;
+		}
+
 		// <c> check
 		enum file_entity_type fe_type = FILEENTITY_CODE_BLOCK;
 		if (calc_entity_type(line_buf, &fe_type) != 0) {
@@ -59,52 +68,48 @@ int parse_taskfile(struct tasks *t, const char *file)
 		}
 		LOG("Detected file_entity of type : %s", get_file_entity_type_name(fe_type));
 
+
 		// Collect all entity data inside this file_entity (file line)
-		vec_clear(vec_temp_data);
-		struct entity_data d = {0}; char *entity_it = line_buf;
-		while (find_entity_data(entity_it, &d.type, &d.data) == 0) {
-			LOG("type : %s; data : %s", get_entity_data_type_name(d.type), d.data);
-			vec_pushback(vec_temp_data, d);
-			// A valid data pointer, must be present after the '[t]' syntax.
-			// So we safely scan after it to find the next entity_data.
-			entity_it = d.data;
-		}
-		if (vec_empty(vec_temp_data)) {
+		ent_data.clear();
+		collect_all_ent_data(line_buf, &ent_data);
+		if (ent_data.empty()) {
 			FAIL_LOG("Empty file entity encountered.");
 			goto FAILURE_EXIT;
 		}
 
 
-		struct file_entity* entity = alloc_fileentity(line_buf, fe_type, vec_temp_data, vec_len(vec_temp_entities));
-		vec_pushback(vec_temp_entities, entity);
+		// pushback this file_entity
+		struct file_entity ent; {
+			ent.type = fe_type;
+			ent.file_line = line_buf;
+			for (size_t i = 0; i < ent_data.size(); ++i)
+				ent.data.push_back(ent_data[i]);
+		}
+
+		tasks_out->push_back(ent);
+		line_buf = NULL;
 	}
 
-	if (vec_empty(vec_temp_entities)) {
-		WARN_LOG("input task contains no valid taks");
+	// if (vec_empty(vec_temp_entities)) {
+	if (tasks_out->empty()) {
+		WARN_LOG("task file %s contains no valid tasks", file);
 		goto FAILURE_EXIT;
 	}
 
 
-SUCCESS_EXIT:
 	fclose(f);
-	t->entity_count = vec_len(vec_temp_entities);
-	t->entities = (struct file_entity**)malloc(sizeof(void*) * t->entity_count);
-	if (!t->entities) {
-		FATAL_LOG("Failed to malloc. dying now.");
-		exit(1);
-	}
-	for (int i = 0; i < vec_len(vec_temp_entities); ++i)
-		t->entities[i] = vec_temp_entities[i];
-	vec_free(vec_temp_entities);
-	vec_free(vec_temp_data);
 	return 0;
 
 FAILURE_EXIT:
 	fclose(f);
-	for (int i = 0; i < vec_len(vec_temp_entities); ++i)
-		free_fileentity(vec_temp_entities[i]);
-	vec_free(vec_temp_entities);
-	vec_free(vec_temp_data);
+	for (size_t i = 0; i < tasks_out->size(); ++i)
+		free((*tasks_out)[i].file_line);
+	// line buffer is set to NULL each time it is accepted and stored in its `file_entity` struct.
+	// Upon failure, we free all valid file_entities captued till now.
+	// But we also must free the very line buffer that caused the failure for it won't be accepted 
+	// in any `file_entity` struct.
+	if (line_buf)
+		free(line_buf);
 	return 1;
 }
 
@@ -125,12 +130,13 @@ char* find_char(char *haystack, char needle)
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-int find_entity_data(char *src, enum entity_data_type *datatype_out, char **data_out)
+int find_entity_data(char *src, enum entity_data_type *datatype_out, char **data_out, char **start_out)
 {
 	// example format : [c]gcc somefile
 	char *type_start = find_char(src, '[');
 	if (!type_start)
 		return 1;
+	*start_out = type_start;
 
 	char *type_end = find_char(type_start, ']');
 	if (!type_end)
@@ -143,9 +149,6 @@ int find_entity_data(char *src, enum entity_data_type *datatype_out, char **data
 	default: return 1;
 	}
 
-	printf("type start : %p\n", type_start);
-	printf("type end   : %p\n", type_end);
-	printf("type diff  : %td\n", type_end - type_start);
 	*data_out = type_end + 1;
 	return 0;
 }
@@ -170,27 +173,22 @@ int calc_entity_type(char *line_start, enum file_entity_type *type_out)
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-static struct file_entity* alloc_fileentity(char *line_buf, enum file_entity_type type, struct entity_data *entitydata_vec, size_t entitydata_count)
+static int collect_all_ent_data(char *src, std::vector<entity_data> *out)
 {
-	struct file_entity* e = (struct file_entity*)malloc(sizeof(struct file_entity));
-	e->type = type;
-	e->file_line = line_buf;
-	e->child_count = entitydata_count;
-	e->children = (struct entity_data*)malloc(sizeof(struct entity_data) * entitydata_count);
-	for (int i = 0; i < entitydata_count; ++i)
-		e->children[i] = entitydata_vec[i];
+	struct entity_data d = {0};
+	char *d_start = NULL;
+	while (find_entity_data(src, &d.type, &d.data, &d_start) == 0) {
+		out->push_back(d);
 
-	return e;
-}
+		// cap out start of each entity_data. i.e. all valid [t] turn to '\0't].
+		if (d_start)
+			*d_start = 0;
 
-
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-static void free_fileentity(struct file_entity *e)
-{
-	free(e->children);
-	free(e->file_line);
-	free(e);
+		// A valid data pointer (d.data), must be present after the '[t]' syntax.
+		// by passing d.data as the src, we will find the next file entity data (if present).
+		src = d.data;
+	}
+	return 0;
 }
 
 

@@ -9,8 +9,6 @@
 #ifndef ENTITY_DATA_H
 #define ENTITY_DATA_H
 
-#define ENTITY_DATA_MAX_LEN (512)
-
 
 
 ///////////////////////////////////////////////////////////////////////////
@@ -28,5 +26,6 @@ struct entity_data {
 	char *data;
 	enum entity_data_type type;
 };
+
 
 #endif // ENTITY_DATA_H

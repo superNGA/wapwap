@@ -10,6 +10,7 @@
 #define FILE_ENTITY_H
 
 #include <stddef.h>
+#include <vector>
 #include "entity_data.h"
 
 
@@ -29,8 +30,7 @@ struct file_entity {
 	enum file_entity_type type;
 	char *file_line;
 
-	struct entity_data *children;
-	size_t child_count;
+	std::vector<entity_data> data;
 };
 
 

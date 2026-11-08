@@ -9,20 +9,12 @@
 #ifndef TASKS_H
 #define TASKS_H
 
-#include "../ilib/ilib_arena_alloc.h"
+#include <vector>
 #include "file_entity.h"
 
 
 
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-struct tasks {
-	struct file_entity **entities;
-	size_t entity_count;
-};
-
-
-int parse_taskfile(struct tasks *t, const char *file);
+int parse_taskfile(std::vector<file_entity>* tasks_out, const char *file);
 
 
 #endif // TASKS_H

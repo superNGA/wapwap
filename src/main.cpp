@@ -19,7 +19,6 @@
 #include "tasks/tasks.h"
 #include "wapwap_state.h"
 #include "util/log_io.h"
-#include "ilib/ilib_vector.h"
 #include "txtline.h"
 
 
@@ -44,6 +43,7 @@
 #define min(x, y) ((x) < (y) ? (x) : (y))
 
 
+
 // page margin
 const float MARGIN_TOP    = 10.0;
 const float MARGIN_BOTTOM = 10.0;
@@ -52,28 +52,34 @@ const float MARGIN_RIGHT  = 10.0;
 
 
 
-static int ww_add_from_file(struct wapwap_state *c, const char *f);
-static int ww_file_to_lines(struct wapwap_state *c, const char *f, std::vector<txtline>* lines_out, float max_line_width_pxl);
-static int ww_box_the_page(float it, float xpos, HPDF_Page page, int max_boxes, float width, float height, struct vec3 clr_a, struct vec3 clr_b);
-static int ww_stroke_codebox(HPDF_Page page, bool top, bool bottom, float tx, float ty, float bx, float by);
-static int ww_pushback_a4page(struct wapwap_state *c);
-static int ww_add_heading(struct wapwap_state *c, const char *msg);
-static int ww_add_exec_file(struct wapwap_state *c, const char *f);
-static int ww_addlinebg(HPDF_Page page, struct vec3 clr, float x, float y, float width, float height);
-static int ww_textout(struct wapwap_state *c, const char *msg, float xoff);
+static int ww_do_task        (struct wapwap_state *s, struct config *c, struct file_entity *task);
+static int ww_gen_linelist   (struct wapwap_state *s, struct config *c, struct file_entity *task, std::vector<txtline> *ll, bool linenum);
+static int ww_line_chop_n_tag(struct wapwap_state *s, struct config *c, std::string *l, std::vector<txtline> *ll, bool linenum);
+static int ww_split_line     (HPDF_Page page, float split_width, const char *line, std::vector<char*> *lines_out);
+static int ww_is_comment     (const char *c);
+static int ww_getline_fmt    (FILE *f, std::string *line);
+static void ww_add_linenum(std::string *l, int num);
+
+// PDF output...
+static int ww_add_heading    (struct wapwap_state *s, const char *msg);
+static int ww_add_text       (struct wapwap_state *s, std::vector<txtline> *ll);
+static int ww_add_code       (struct wapwap_state *s, std::vector<txtline> *ll);
+static int ww_box_the_page   (float it, float xpos, HPDF_Page page, int max_boxes, float width, float height, struct vec3 clr_a, struct vec3 clr_b);
+static int ww_addlinebg      (HPDF_Page page, struct vec3 clr, float x, float y, float width, float height);
+static int ww_stroke_codebox (HPDF_Page page, bool top, bool bottom, float tx, float ty, float bx, float by);
+
+static HPDF_Page ww_get_active_page(struct wapwap_state *s);
+static int ww_is_lastpage_dirty(struct wapwap_state *c);
+static int ww_pushback_a4page(struct wapwap_state *s);
+static int ww_textout        (struct wapwap_state *c, const char *msg, float xoff);
 static int ww_copy_page_stats(HPDF_Page from, HPDF_Page to);
 
-static int ww_split_line(HPDF_Page page, float split_width, char *line, std::vector<char*>* lines_out);
-static int ww_is_comment(const char *c);
-static int ww_has_linenum(const char *c);
-static int ww_is_lastpage_dirty(struct wapwap_state *c);
+
+// font...
+static HPDF_Font ww_init_font(HPDF_Doc pdf, const char *font_file);
 static float ww_get_curfont_height(HPDF_Page page);
 static float ww_get_curfont_descend(HPDF_Page page);
-static HPDF_Page ww_get_active_page(struct wapwap_state *c);
 
-static HPDF_Font ww_init_font(HPDF_Doc pdf, const char *font_file);
-static void ww_sanitize_strline_inplace(char *str);
-static void ww_pushfront_str(char *dest, char *src);
 
 static void fatal_error_exit();
 void err_handler(HPDF_STATUS error_no, HPDF_STATUS detail_no, void *user_data);
@@ -92,22 +98,20 @@ int main(int argc, char **argv)
 	
 
 	HPDF_Doc pdf = HPDF_New(err_handler, NULL);
-	if (!pdf) {
-		FAIL_LOG("Failed to create new file");
+	if (!pdf)
 		return 1;
-	}
 	HPDF_UseUTFEncodings(pdf);
 	HPDF_SetCurrentEncoder(pdf, "UTF-8");
 	WIN_LOG("doc initialized");
 
+
 	// tasks file
 	const char *task_file = argv[2];
-	struct tasks t = {0};
-	if (parse_taskfile(&t, task_file) != 0) {
-		FAIL_LOG("Failed task file parsing : %s", task_file);
+	std::vector<file_entity> t; t.clear();
+	if (parse_taskfile(&t, task_file) != 0)
 		return 1;
-	}
-	WIN_LOG("Task file %s pased. %zu tasks queued", task_file, t.entity_count);
+	WIN_LOG("Task file %s pased. %zu tasks queued", task_file, t.size());
+
 
 	// config file
 	const char *config_file = argv[1];
@@ -115,27 +119,30 @@ int main(int argc, char **argv)
 	parse_configfile(&c, config_file);
 	WIN_LOG("config file parsed : %s", config_file);
 
+
 	// wapwap state
 	struct wapwap_state s = {0};
 	s.pdf = pdf;
 	s.config = &c;
-	s.heading_font = ww_init_font(s.pdf, c.heading_font);
-	s.output_font = ww_init_font(s.pdf, c.output_font);
-	s.codetext_font = ww_init_font(s.pdf, c.code_font);
-	s.codecomment_font = ww_init_font(s.pdf, c.comment_font);
+	s.heading_font = ww_init_font(s.pdf, c.heading_font.c_str());
+	s.text_font = ww_init_font(s.pdf, c.text_font.c_str());
+	s.codetext_font = ww_init_font(s.pdf, c.code_font.c_str());
+	s.codecomment_font = ww_init_font(s.pdf, c.comment_font.c_str());
 	WIN_LOG("state constructed. All fonts initialized.");
 
 
 	ww_pushback_a4page(&s);
-	for (int i = 0; i < t.entity_count; ++i) {
-
+	s.it = HPDF_Page_GetHeight(ww_get_active_page(&s)) - MARGIN_TOP;
+	for (int i = 0; i < t.size(); ++i) {
+		if (ww_do_task(&s, &c, &t[i]) != OK)
+			goto FAILURE_EXIT;
 	}
 	
 
 	// Write file and exit
 	HPDF_SaveToFile(pdf, "output.pdf");
 
-FREE_AND_EXIT:
+FAILURE_EXIT:
 	HPDF_Free(pdf);
 	return 0;
 }
@@ -143,46 +150,181 @@ FREE_AND_EXIT:
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-static int ww_add_from_file(struct wapwap_state *c, const char *f)
+static int ww_do_task(struct wapwap_state *s, struct config *c, struct file_entity *task)
+{
+	// NOTE : select and apply font here so all further font size calculations are accurate to 
+	// the purpose.
+	HPDF_Font font      = NULL;
+	float     font_size = -1.0;
+	bool      linenum   = false;
+
+	switch (task->type) {
+	case FILEENTITY_CODE_BLOCK:
+		font      = s->codetext_font;
+		font_size = c->code_size;
+		linenum   = true;
+		break;
+	case FILEENTITY_HEADING:
+		font      = s->heading_font;
+		font_size = c->heading_size;
+		break;
+	case FILEENTITY_TEXT:
+		font      = s->text_font;
+		font_size = c->text_size;
+		break;
+	}
+	HPDF_Page_SetFontAndSize(ww_get_active_page(s), font, font_size);
+
+	std::vector<txtline> ll; ll.clear();
+	if (ww_gen_linelist(s, c, task, &ll, linenum) != OK)
+		return ER;
+
+	if (ll.empty())
+		return OK;
+
+	switch (task->type) {
+	case FILEENTITY_CODE_BLOCK:
+		ww_add_code(s, &ll);
+		break;
+	case FILEENTITY_HEADING:
+		ww_add_heading(s, ll.front().txt);
+		break;
+	case FILEENTITY_TEXT:
+		ww_add_text(s, &ll);
+		break;
+	}
+	for (size_t i = 0; i < ll.size(); ++i)
+		printf("[%d] %s\n", ll[i].flags, ll[i].txt);
+
+	// free this linelist
+	for (size_t i = 0; i < ll.size(); ++i)
+		free(ll[i].txt);
+	return OK;
+}
+
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+static int ww_gen_linelist(struct wapwap_state *s, struct config *c, struct file_entity *task, std::vector<txtline> *ll, bool linenum)
+{
+	for (int i = 0; i < task->data.size(); ++i) {
+		entity_data *d      = &task->data[i];
+		HPDF_Page   curpage = ww_get_active_page(s);
+
+		switch (d->type) {
+		case ENTITYDATA_TEXT:
+		{
+			std::string line(d->data);
+			ww_line_chop_n_tag(s, c, &line, ll, linenum);
+			break;
+		}
+		case ENTITYDATA_FILE:
+		{
+			FILE *f = fopen(d->data, "r");
+			if (!f) {
+				FAIL_LOG("failed to open file : %s", d->data);
+				return ER;
+			}
+
+			std::string line;
+			while (ww_getline_fmt(f, &line) == OK) {
+				ww_line_chop_n_tag(s, c, &line, ll, linenum);
+				line.clear();
+			}
+
+			fclose(f);
+			break;
+		}
+		case ENTITYDATA_SHELLCMD:
+		{
+			FILE *f = popen(d->data, "r");
+			if (!f) {
+				FAIL_LOG("failed to open file : %s", d->data);
+				return ER;
+			}
+
+			std::string line;
+			while (ww_getline_fmt(f, &line) == OK) {
+				ww_line_chop_n_tag(s, c, &line, ll, linenum);
+				line.clear();
+			}
+
+			pclose(f);
+			break;
+		}
+		}
+		LOG("Child done");
+	}
+	return OK;
+}
+
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+static int ww_line_chop_n_tag(struct wapwap_state *s, struct config *c, std::string *l, std::vector<txtline> *ll, bool linenum)
+{
+	bool is_comment = ww_is_comment(l->c_str());
+
+	// expand tabs & add linenum
+	if (linenum)
+		ww_add_linenum(l, (int)ll->size());
+
+
+	HPDF_Page curpage = ww_get_active_page(s);
+	float pwidth = HPDF_Page_GetWidth(curpage);
+	std::vector<char*> split_lines; split_lines.clear();
+	ww_split_line(curpage, pwidth - MARGIN_LEFT - MARGIN_RIGHT, l->c_str(), &split_lines);
+
+	// empty line
+	if (split_lines.empty())
+		split_lines.push_back((char*)calloc(1,1));
+
+	int flags = 0;
+	if (is_comment)
+		flags |= lineflag_comment;
+	for (char *l : split_lines)
+		ll->push_back(txtline(l, flags));
+
+	return OK;
+}
+
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+static int ww_add_code(struct wapwap_state *s, std::vector<txtline> *ll)
 {
 	// NOTE : Although custom font can be used for code comments, it plays no more
 	// in determining the "code-background-box" height (or any other thing).
 	// It is recommended to pick a reasonable font for comments.
 
 	// page specs
-	HPDF_Page active_page = ww_get_active_page(c);
+	HPDF_Page active_page = ww_get_active_page(s);
 	float pwidth = HPDF_Page_GetWidth(active_page);
 	float pheight = HPDF_Page_GetHeight(active_page);
 
 	// calculate font specs
-	HPDF_Page_SetFontAndSize(active_page, c->codetext_font, c->config->code_size); 
+	HPDF_Page_SetFontAndSize(active_page, s->codetext_font, s->config->code_size); 
 	float font_height = ww_get_curfont_height(active_page);
 	float font_descend = abs(ww_get_curfont_descend(active_page));
 
 	// Split file into lines of length (in pxls) less than max_line_width
-	std::vector<txtline> lines;
-	static const float CODEMARGIN_LEFT  = MARGIN_LEFT  + 10.0;
-	static const float CODEMARGIN_RIGHT = MARGIN_RIGHT + 10.0;
-	static const float BOXMARGIN_LEFT   = MARGIN_LEFT  + 5.0;
-	static const float BOXMARGIN_RIGHT  = MARGIN_RIGHT + 5.0;
+	static const float CODEMARGIN_LEFT  = MARGIN_LEFT; //  + 10.0;
+	static const float CODEMARGIN_RIGHT = MARGIN_RIGHT; // + 10.0;
+	static const float BOXMARGIN_LEFT   = MARGIN_LEFT; //  + 5.0;
+	static const float BOXMARGIN_RIGHT  = MARGIN_RIGHT; // + 5.0;
 	float codebox_width = pwidth - BOXMARGIN_LEFT - BOXMARGIN_RIGHT;
 	float max_line_width = pwidth - CODEMARGIN_LEFT - CODEMARGIN_RIGHT;
-	if (ww_file_to_lines(c, f, &lines, max_line_width) != OK) {
-		FAIL_LOG("Failed to split file into lines");
-		return ER;
-	}
-	LOG("!");
 
 
-	int total_boxes = lines.size();
+	int total_boxes = ll->size();
 	int boxes_left = total_boxes;
 	HPDF_Page last_page_boxed = NULL;
 	bool last_line_comment = false;
-	for (size_t i = 0; i < lines.size(); ++i) {
-		active_page = ww_get_active_page(c);
+	for (size_t i = 0; i < ll->size(); ++i) {
+		active_page = ww_get_active_page(s);
 
 		if (boxes_left > 0 && last_page_boxed != active_page) {
-			float box_it = c->it - font_descend; // Acknowledge the subtracted font descend
+			float box_it = s->it - font_descend; // Acknowledge the subtracted font descend
 			assert(box_it > MARGIN_BOTTOM && box_it < pheight - MARGIN_TOP && "Invalid box iterator");
 
 			int box_drawn = ww_box_the_page(
@@ -192,14 +334,14 @@ static int ww_add_from_file(struct wapwap_state *c, const char *f)
 					boxes_left, // max boxes that can be drawn
 					codebox_width, // box width  
 					font_height, // box height 
-					c->config->codeline_clr_a, // box color A
-					c->config->codeline_clr_b); // box color B
+					s->config->codeline_clr_a, // box color A
+					s->config->codeline_clr_b); // box color B
 			float total_boxes_height = (float)box_drawn * font_height;
 
 
 			// Draw border lines over the boxes
 			HPDF_Page_SetLineWidth(active_page, 1.0);
-			HPDF_Page_SetRGBStroke(active_page, c->config->codeline_clr_a.x, c->config->codeline_clr_a.y, c->config->codeline_clr_a.z);
+			HPDF_Page_SetRGBStroke(active_page, s->config->codeline_clr_a.x, s->config->codeline_clr_a.y, s->config->codeline_clr_a.z);
 			ww_stroke_codebox(
 					active_page, // curpage
 					boxes_left == total_boxes, // draw top line
@@ -214,90 +356,17 @@ static int ww_add_from_file(struct wapwap_state *c, const char *f)
 			last_page_boxed = active_page;
 		}
 
-		txtline lineinfo = lines[i];
-		HPDF_Font font = lineinfo.comment ? c->codecomment_font : c->codetext_font;
-		struct vec3 txt_clr = lineinfo.comment ? c->config->comment_clr : c->config->code_clr;
+		txtline lineinfo = (*ll)[i]; // size of txtline struct is "trivial"
+		HPDF_Font font = (lineinfo.flags & lineflag_comment) ? s->codecomment_font : s->codetext_font;
+		struct vec3 txt_clr = (lineinfo.flags & lineflag_comment) ? s->config->comment_clr : s->config->code_clr;
 
 		HPDF_Page_SetRGBFill(active_page, txt_clr.x, txt_clr.y, txt_clr.z);
-		// HPDF_Page_SetRGBStroke(active_page, txt_clr.x, txt_clr.y, txt_clr.z);
-		HPDF_Page_SetFontAndSize(ww_get_active_page(c), font, 8.0);
-		ww_textout(c, lineinfo.txt, CODEMARGIN_LEFT);
+		HPDF_Page_SetFontAndSize(ww_get_active_page(s), font, 8.0);
+		ww_textout(s, lineinfo.txt, CODEMARGIN_LEFT);
 
-
-		assert((ww_get_active_page(c) == last_page_boxed || c->lines_lastpage == 0) && "Box and text drawing are out of sync!");
+		assert((ww_get_active_page(s) == last_page_boxed || s->lines_lastpage == 0) && "Box and text drawing are out of sync!");
 	}
 
-	// Free all lines
-	for (txtline l : lines)
-		free(l.txt);
-
-	return OK;
-}
-
-
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-static int ww_file_to_lines(struct wapwap_state *c, const char *f, std::vector<txtline>* lines_out, float max_line_width_pxl)
-{
-	FILE *file = fopen(f, "r");
-	if (!file)
-		return ER;
-	
-	HPDF_Page cur_page = ww_get_active_page(c);
-	std::vector<char*> split_lines;
-	char *line = NULL;
-	size_t linelen = 0;
-	int line_counter = 0;
-	while (getline(&line, &linelen, file) > 0) {
-		split_lines.clear();
-
-		// count all tab chars
-		size_t tab_count = 0;
-		for (size_t i = 0; i < linelen; ++i)
-			if (line[i] == '\t')
-				++tab_count;
-
-		// Allocate new buffer to compensate for expanded tabs
-		int buf_failsafe_space = c->config->line_num ? 16 : 10; // +10 for get-out-of-jail free card
-		char *new_buf = (char*)calloc(linelen + tab_count * (TAB_SIZE - 1) + buf_failsafe_space, 1); 
-		strncpy(new_buf, line, linelen);
-
-		// expand all tabs
-		ww_sanitize_strline_inplace(new_buf);
-		bool is_comment = ww_is_comment(new_buf);
-
-		// add line num
-		if (c->config->line_num) {
-			static char linenum_buf[16] = {0}; // No one should be generating a pdf file with more than "16-digit" lines of code.
-			snprintf(linenum_buf, sizeof(linenum_buf), "%3d ", line_counter + 1);
-			ww_pushfront_str(new_buf, linenum_buf);
-		}
-
-		// Split the line for the sake of line-wrapping.
-		LOG("!");
-		ww_split_line(cur_page, max_line_width_pxl, new_buf, &split_lines);
-		LOG("!");
-
-		if (split_lines.empty()) {
-			char *empty_line = (char*)calloc(1, sizeof(char));
-			split_lines.push_back(empty_line);
-		}
-		LOG("!");
-
-		for (char *line_piece : split_lines) {
-			txtline l = {0};
-			l.txt = line_piece;
-			l.comment = is_comment;
-			lines_out->push_back(l);
-		}
-		LOG("!---");
-
-		++line_counter;
-		free(new_buf);
-		free(line); line = NULL;
-	}
-
-	fclose(file);
 	return OK;
 }
 
@@ -317,7 +386,6 @@ static int ww_box_the_page(float it, float xpos, HPDF_Page page, int max_boxes, 
 	// Draw alternate boxes in color B
 	for (int box_i = 0; box_i < box_count / 2; ++box_i) {
 		ww_addlinebg(page, clr_b, xpos, it - (float)(box_i + 1) * height * 2.0, width, height);
-
 	}
 	return box_count;
 }
@@ -355,13 +423,12 @@ static int ww_stroke_codebox(HPDF_Page page, bool top, bool bottom, float tx, fl
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-static int ww_pushback_a4page(struct wapwap_state *c)
+static int ww_pushback_a4page(struct wapwap_state *s)
 {
-	HPDF_Page page = HPDF_AddPage(c->pdf);
+	HPDF_Page page = HPDF_AddPage(s->pdf);
 	HPDF_Page_SetSize(page, HPDF_PAGE_SIZE_A4, HPDF_PAGE_PORTRAIT);
-	vec_pushback(c->book, page); // c->book.push_back(page);
-	
-	c->lines_lastpage = 0;
+	s->book.push_back(page);
+	s->lines_lastpage = 0;
 	LOG("Added new page");
 	return OK;
 }
@@ -369,14 +436,14 @@ static int ww_pushback_a4page(struct wapwap_state *c)
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-static int ww_add_heading(struct wapwap_state *c, const char *msg)
+static int ww_add_heading(struct wapwap_state *s, const char *msg)
 {
 	static const float HEADING_MARGIN_LEFT = MARGIN_LEFT;
 	static const float HEADING_MARGIN_RIGHT = MARGIN_RIGHT;
 
-	HPDF_Page active_page = ww_get_active_page(c);
+	HPDF_Page active_page = ww_get_active_page(s);
 
-	HPDF_Page_SetFontAndSize(active_page, c->heading_font, c->config->heading_size);
+	HPDF_Page_SetFontAndSize(active_page, s->heading_font, s->config->heading_size);
 	float font_height = ww_get_curfont_height(active_page);
 	float font_descend = abs(ww_get_curfont_descend(active_page));
 
@@ -385,63 +452,31 @@ static int ww_add_heading(struct wapwap_state *c, const char *msg)
 
 
 	// Drawing heading decor (Draw tilted lines after the heading text)
-	HPDF_Page_SetRGBStroke(active_page, c->config->heading_decor_clr.x, c->config->heading_decor_clr.y, c->config->heading_decor_clr.z);
+	HPDF_Page_SetRGBStroke(active_page, s->config->heading_decor_clr.x, s->config->heading_decor_clr.y, s->config->heading_decor_clr.z);
 	static const float HEADING_DECOR_LINEGAP = 6.0;
 	static const float HEADING_DECORD_TILT = -3.5;
 	const float decor_start_pos = HEADING_MARGIN_LEFT + msg_width + abs(HEADING_DECORD_TILT * 2.0); // Makes sure decor appears on right of the heading text.
 	for (float x = decor_start_pos; x < heading_width; x += HEADING_DECOR_LINEGAP) {
-		HPDF_Page_MoveTo(active_page, x + HEADING_DECORD_TILT, c->it - font_descend);
-		HPDF_Page_LineTo(active_page, x - HEADING_DECORD_TILT, c->it - font_height - font_descend);
+		HPDF_Page_MoveTo(active_page, x + HEADING_DECORD_TILT, s->it - font_descend);
+		HPDF_Page_LineTo(active_page, x - HEADING_DECORD_TILT, s->it - font_height - font_descend);
 		HPDF_Page_Stroke(active_page);
 	}
 
-	HPDF_Page_SetRGBFill(active_page, c->config->heading_clr.x, c->config->heading_clr.y, c->config->heading_clr.z);
-	ww_textout(c, msg, HEADING_MARGIN_LEFT);
+	HPDF_Page_SetRGBFill(active_page, s->config->heading_clr.x, s->config->heading_clr.y, s->config->heading_clr.z);
+	ww_textout(s, msg, HEADING_MARGIN_LEFT);
 	return OK;
 }
 
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-static int ww_add_exec_file(struct wapwap_state *c, const char *f)
+static int ww_add_text(struct wapwap_state *s, std::vector<txtline> *ll)
 {
-	static char compile_cmdbuf[512] = {0};
-	static char execute_cmdbuf[512] = {0};
-	static char exe_name[] = "wap_tmp.out";
-
-	// Compile the program
-	snprintf(compile_cmdbuf, sizeof(compile_cmdbuf), "g++ %s -o %s;", f, exe_name);
-	if (system(compile_cmdbuf) != 0) {
-		FAIL_LOG("Failed to compile. cmd : %s", compile_cmdbuf);
-		return ER;
-	}
-	LOG("Compiled. > %s", compile_cmdbuf);
-
-	// Execute the executable
-	snprintf(execute_cmdbuf, sizeof(execute_cmdbuf), "./%s;", exe_name);
-	FILE *output = popen(execute_cmdbuf, "r");
-	if (!output) {
-		FAIL_LOG("Failed to run executable [ %s ] for file: %s", execute_cmdbuf, f);
-		return ER;
-	}
-	LOG("Executed. > %s", execute_cmdbuf);
-
-	// Write program output to pdf
-	HPDF_Page active_page = ww_get_active_page(c);
-	HPDF_Page_SetFontAndSize(active_page, c->output_font, c->config->output_size);
-	HPDF_Page_SetRGBFill(active_page, c->config->output_clr.x, c->config->output_clr.y, c->config->output_clr.z);
-
-	static const float OUTPUT_MARGIN_LEFT = MARGIN_LEFT + 15.0;
-	static char cmd_buf[512] = {0};
-	snprintf(cmd_buf, sizeof(cmd_buf), "\u276F\u276F\u276F %s %s", compile_cmdbuf, execute_cmdbuf);
-	ww_textout(c, cmd_buf, OUTPUT_MARGIN_LEFT);
-
-	while (fgets(cmd_buf, sizeof(cmd_buf), output)) {
-		ww_sanitize_strline_inplace(cmd_buf);
-		ww_textout(c, cmd_buf, OUTPUT_MARGIN_LEFT);
-	}
-
-	pclose(output);
+	HPDF_Page curpage = ww_get_active_page(s);
+	HPDF_Page_SetFontAndSize(curpage, s->text_font, s->config->text_size);
+	HPDF_Page_SetRGBFill(curpage, s->config->text_clr.x, s->config->text_clr.y, s->config->text_clr.z);
+	for (size_t i = 0; i < ll->size(); ++i)
+		ww_textout(s, (*ll)[i].txt, MARGIN_LEFT);
 	return OK;
 }
 
@@ -520,18 +555,14 @@ static int ww_copy_page_stats(HPDF_Page from, HPDF_Page to)
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-static int ww_split_line(HPDF_Page page, float split_width, char *line, std::vector<char*>* lines_out)
+static int ww_split_line(HPDF_Page page, float split_width, const char *line, std::vector<char*> *lines_out)
 {
-	float pwidth = HPDF_Page_GetWidth(page);
-
 	while (*line != '\0') {
 		HPDF_REAL real_width = 0.0;
-		// trying to split at word bondaries can potentially cause a infinite loop. To deal with
-		// that we need to write extra code. Which I'm not in mood of. Plus nvim also wraps at character
-		// boundary.
 		size_t split_len = HPDF_Page_MeasureText(page, line, split_width, false, &real_width);
-		char *line_buf = (char*)calloc(split_len + 2, 1);
+		char   *line_buf = (char*)calloc(split_len + 2, 1);
 		strncpy(line_buf, line, split_len);
+
 		lines_out->push_back(line_buf);
 
 		line += split_len;
@@ -545,6 +576,8 @@ static int ww_split_line(HPDF_Page page, float split_width, char *line, std::vec
 ///////////////////////////////////////////////////////////////////////////
 static int ww_is_comment(const char *c)
 {
+	// ignore ' ' and [0-9]. once first non-ignorable character has been encoutered,
+	// string matches against 'COMMENT_STR'. Returns 0 for not comment, !0 for comment.
 	for (;; ++c) {
 		if (*c == '\0')
 			break;
@@ -561,10 +594,28 @@ static int ww_is_comment(const char *c)
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-static int ww_has_linenum(const char *c)
+static int ww_getline_fmt(FILE *f, std::string *line)
 {
+	char ch = fgetc(f);
+	if (ch == EOF)
+		return ER;
 
-	return false;
+	while (ch != EOF) {
+		if (ch == '\n' || ch == '\0')
+			break;
+		
+		if (ch == '\t') {
+			for (size_t i = 0; i < TAB_SIZE; ++i)
+				line->push_back(' ');
+		}
+		else {
+			line->push_back(ch);
+		}
+
+		ch = fgetc(f);
+	}
+
+	return OK;
 }
 
 
@@ -619,9 +670,9 @@ static float ww_get_curfont_descend(HPDF_Page page)
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-static HPDF_Page ww_get_active_page(struct wapwap_state *c)
+static HPDF_Page ww_get_active_page(struct wapwap_state *s)
 {
-	return *vec_back(c->book);
+	return s->book.back();
 }
 
 
@@ -639,37 +690,12 @@ static size_t linelen(const char *s)
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-static void ww_sanitize_strline_inplace(char *str)
+static void ww_add_linenum(std::string *s, int num)
 {
-	size_t tab_size = 4;
-	size_t shift_size = tab_size - 1;
-	size_t i = 0;
-	int tabs = 0;
-	while (str[i] != '\0' && str[i] != '\n') {
-		if (str[i] == '\t') {
-			for (size_t j = linelen(str); j > i; --j)
-				str[j + shift_size] = str[j];
-			for (size_t j = i; j < i + tab_size; ++j)
-				str[j] = ' ';
-		}
-		++i;
-	}
-
-	str[i] = '\0';
-}
-
-
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-static void ww_pushfront_str(char *dest, char *src)
-{
-	size_t numlen = strlen(src);
-	size_t len = strlen(dest);
-	for (int i = len + 1; i >= 0; --i)
-		dest[i + numlen] = dest[i];
-	for (int i = 0; i < numlen; ++i)
-		dest[i] = src[i];
-	return;
+	// "16 digit" lines of code is big enough. 
+	char tmp[16] = {0};
+	snprintf(tmp, sizeof(tmp), " %3d ", num);
+	s->insert(0, tmp);
 }
 
 

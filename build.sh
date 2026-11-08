@@ -3,6 +3,7 @@
 OUTPUT_DIR="./build/wapwap.out"
 LIBHARU_SLIB="./build/libharu.a"
 LIBHARU_BUILDSCRIPT="./build_libharu.sh"
+FLAGS="-g" #-fsanitize=address"
 
 # fix directory
 cd "$(dirname ${BASH_SOURCE[0]})"
@@ -25,11 +26,11 @@ echo "libharu static library found"
 
 SOURCES=(
 	./src/main.cpp
-	./src/config/config.c
-	./src/tasks/tasks.c
+	./src/config/config.cpp
+	./src/tasks/tasks.cpp
 	)
 
-g++ "${SOURCES[@]}" "$LIBHARU_SLIB" -lz -o "$OUTPUT_DIR"
+g++ "$FLAGS" "${SOURCES[@]}" "$LIBHARU_SLIB" -lz -o "$OUTPUT_DIR"
 if [ ! -e "$OUTPUT_DIR" ]; then
 	echo "Failed build"
 	exit 1

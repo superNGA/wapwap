@@ -28,24 +28,25 @@
 #define CODECOMMENT_CLR       "CODECOMMENT_CLR"
 // code.codeline
 #define CODELINE_CLR_A        "CODELINE_CLR_A"
-#define CODELINE_CLR_B        "CODELINE_CLE_B"
+#define CODELINE_CLR_B        "CODELINE_CLR_B"
 
-// output variables
-#define OUTPUT_FONTFILE       "OUTPUT_FONTFILE"
-#define OUTPUT_FONTSIZE       "OUTPUT_FONTSIZE"
-#define OUTPUT_CLR            "OUTPUT_CLR"
+// text variables
+#define TEXT_FONTFILE         "TEXT_FONTFILE"
+#define TEXT_FONTSIZE         "TEXT_FONTSIZE"
+#define TEXT_CLR              "TEXT_CLR"
 
 
 static char* find_value_start(char *s);
 static void store_string(char *dest, const char *src);
 static void store_csv(struct vec3 *dest, const char *src);
 static void store_float(float *dest, const char *src);
+static void sanitize_filepath(char *s);
 
 
 
 ///////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////
-void parse_configfile(struct config *c, const char *file)
+void parse_configfile(config *c, const char *file)
 {
 	FILE *f = fopen(file, "r");
 	if (!f) {
@@ -63,7 +64,8 @@ void parse_configfile(struct config *c, const char *file)
 		}
 
 		if (strncmp(fileline, HEADING_FONTFILE, sizeof(HEADING_FONTFILE) - 1) == 0) {
-			store_string(c->heading_font, value);
+			sanitize_filepath(value);
+			c->heading_font = value;
 		}
 		else if (strncmp(fileline, HEADING_FONTSIZE, sizeof(HEADING_FONTSIZE) - 1) == 0) {
 			store_float(&c->heading_size, value);
@@ -75,7 +77,8 @@ void parse_configfile(struct config *c, const char *file)
 			store_csv(&c->heading_decor_clr, value);
 		}
 		else if (strncmp(fileline, CODETEXT_FONTFILE, sizeof(CODETEXT_FONTFILE) - 1) == 0) {
-			store_string(c->code_font, value);
+			sanitize_filepath(value);
+			c->code_font = value;
 		}
 		else if (strncmp(fileline, CODE_FONTSIZE, sizeof(CODE_FONTSIZE) - 1) == 0) {
 			store_float(&c->code_size, value);
@@ -84,7 +87,8 @@ void parse_configfile(struct config *c, const char *file)
 			store_csv(&c->code_clr, value);
 		}
 		else if (strncmp(fileline, CODE_COMMENT_FONTFILE, sizeof(CODE_COMMENT_FONTFILE) - 1) == 0) {
-			store_string(c->comment_font, value);
+			sanitize_filepath(value);
+			c->comment_font = value;
 		}
 		else if (strncmp(fileline, CODECOMMENT_CLR, sizeof(CODECOMMENT_CLR) - 1) == 0) {
 			store_csv(&c->comment_clr, value);
@@ -95,14 +99,15 @@ void parse_configfile(struct config *c, const char *file)
 		else if (strncmp(fileline, CODELINE_CLR_B, sizeof(CODELINE_CLR_B) - 1) == 0) {
 			store_csv(&c->codeline_clr_b, value);
 		}
-		else if (strncmp(fileline, OUTPUT_FONTFILE, sizeof(OUTPUT_FONTFILE) - 1) == 0) {
-			store_string(c->output_font, value);
+		else if (strncmp(fileline, TEXT_FONTFILE, sizeof(TEXT_FONTFILE) - 1) == 0) {
+			sanitize_filepath(value);
+			c->text_font = value;
 		}
-		else if (strncmp(fileline, OUTPUT_FONTSIZE, sizeof(OUTPUT_FONTSIZE) - 1) == 0) {
-			store_float(&c->output_size, value);
+		else if (strncmp(fileline, TEXT_FONTSIZE, sizeof(TEXT_FONTSIZE) - 1) == 0) {
+			store_float(&c->text_size, value);
 		}
-		else if (strncmp(fileline, OUTPUT_CLR, sizeof(OUTPUT_CLR) - 1) == 0) {
-			store_csv(&c->output_clr, value);
+		else if (strncmp(fileline, TEXT_CLR, sizeof(TEXT_CLR) - 1) == 0) {
+			store_csv(&c->text_clr, value);
 		}	
 
 		free(fileline);
@@ -176,4 +181,18 @@ static void store_csv(struct vec3 *dest, const char *src)
 static void store_float(float *dest, const char *src)
 {
 	*dest = atof(src);
+}
+
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+static void sanitize_filepath(char *s)
+{
+	while (*s != '\0')  {
+		if (*s == '\n') {
+			*s = '\0';
+			return;
+		}
+		++s;
+	}
 }
