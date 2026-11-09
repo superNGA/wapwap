@@ -1,6 +1,7 @@
 <p align="center">
   <img src="res/cover_art.png" width="500" height="500" alt="cover_art">
 </p>
+
 **wapwap** is a "output text line-by-line to a pdf file" tool.
 **wapwap** can output plain text, contents of a file, or output of a shell cmd.
 
@@ -32,7 +33,7 @@ TEXT_CLR              [float float float] : color of normal text.
 
 ## Task File
 Task file should be created to define the contents of the pdf file.
-Each line of the task file must begin with a **file_entity** symbol (ex. <c>). The following **file_entities** are recognized.
+Each line of the task file must begin with a **file_entity** symbol ```(ex. <c>)```. The following **file_entities** are recognized.
 ```
 <c> : all children are placed in a code-block.
 <h> : all children are concatinated into one string and writen as a heading. Truncated at page-width.
@@ -40,7 +41,7 @@ Each line of the task file must begin with a **file_entity** symbol (ex. <c>). T
 <p> : Guarantees the next line will be the first line of its page. Creates new page if necessary.
 ```
 
-Each file entity can have multiple children. Each child begin with a special symbol representing its source type. (ex. [f]). 
+Each file entity can have multiple children. Each child begin with a special symbol representing its source type. ```(ex. [f])```. 
 The following child source types are recognized :
 ```
 [t] : treats the following text as simple string. Prints as it is.
