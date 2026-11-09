@@ -3,6 +3,8 @@
 # Builds libharu into a static library so our program can link against it statically at compile time
 
 LIBHARU="./lib/libharu/src"
+INC_HARU="./lib/libharu/include"
+INC_HARUCONFIG="./build/include"
 GCC_BUILD_DIR="./build/libharu_obj"
 LIB_OUTPUT="./build/libharu.a"
 
@@ -20,6 +22,10 @@ echo "$LIBHARU found"
 # Assert temp directtory
 mkdir -p "$GCC_BUILD_DIR"
 
+# this macro is required for libharu to build.
+mkdir -p "$INC_HARUCONFIG"
+echo "#define LIBHPDF_HAVE_ZLIB" > "$INC_HARUCONFIG/hpdf_config.h"
+
 # Build each libharu file
 for file in $LIBHARU/*.c; do
 	# Make sure the file exists on the filesystem (check by -e)
@@ -28,7 +34,7 @@ for file in $LIBHARU/*.c; do
 	fi
 
 	FILENAME=$(basename "$file" .c) # Extract filename. ex: ./libharu/src/file.c -> file
-	gcc -c -O3 "$file" -o "$GCC_BUILD_DIR/$FILENAME.o"
+	gcc -c -O3 -I"$INC_HARU" -I"$INC_HARUCONFIG" "$file" -o "$GCC_BUILD_DIR/$FILENAME.o"
 	echo "Compiled $file"
 done
 
