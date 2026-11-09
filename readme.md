@@ -1,10 +1,11 @@
 <p align="center">
   <img src="res/cover_art.png" width="500" height="500" alt="cover_art">
 </p>
-`wapwap` is a "output text line-by-line to a pdf file" tool.
-`wapwap` can output plain text, contents of a file, or output of a shell cmd.
+**wapwap** is a "output text line-by-line to a pdf file" tool.
+**wapwap** can output plain text, contents of a file, or output of a shell cmd.
 
 usage : ./wapwap configfile[required] taskfile[required]
+
 
 ## Config File
 Config file is used to define the visuals of the generated pdf file. Default visuals will be used in case of an empty config file.
@@ -28,9 +29,10 @@ TEXT_FONTSIZE         [float]             : font size for normal text.
 TEXT_CLR              [float float float] : color of normal text.
 ```
 
+
 ## Task File
 Task file should be created to define the contents of the pdf file.
-Each line of the task file must begin with a `file_entity` symbol (ex. <c>). The following `file_entities` are recognized.
+Each line of the task file must begin with a **file_entity** symbol (ex. <c>). The following **file_entities** are recognized.
 ```
 <c> : all children are placed in a code-block.
 <h> : all children are concatinated into one string and writen as a heading. Truncated at page-width.
