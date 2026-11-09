@@ -1,0 +1,3 @@
+<h>[t]../src/main.cpp
+<c>[f]../src/main.cpp
+<t>[c]echo "lol ,wapwap" | rev

@@ -1,0 +1,6 @@
+LINENUM               0
+HEADING_FONTFILE      ../res/UniSansHeavy.ttf
+CODETEXT_FONTFILE     ../res/JetBrainsMonoNF.ttf
+CODE_COMMENT_FONTFILE ../res/JetBrainsMonoNF.ttf
+TEXT_FONTFILE         ../res/JetBrainsMonoNF.ttf
+CODECOMMENT_CLR       0.3 0.3 0.3

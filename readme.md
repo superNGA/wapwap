@@ -30,6 +30,8 @@ TEXT_FONTSIZE         [float]             : font size for normal text.
 TEXT_CLR              [float float float] : color of normal text.
 ```
 
+NOTE : You must atleast define the `HEADING_FONTFILE`, `CODETEXT_FONTFILE`, `CODE_COMMENT_FONTFILE`, `TEXT_FONTFILE` for there is no default value for those.
+
 
 ## Task File
 Task file should be created to define the contents of the pdf file.
