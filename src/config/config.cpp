@@ -142,20 +142,20 @@ static void reset_to_default(config *c)
 	c->line_num = true;
 	// c->heading_font must be specified in config file.
 	c->heading_size = 16.0;
-	c->heading_clr = vec3(0.0, 0.0, 0.0);
-	c->heading_decor_clr = vec3(0.3, 0.3, 0.3);
+	c->heading_clr = (vec3){0.0, 0.0, 0.0};
+	c->heading_decor_clr = (vec3){0.3, 0.3, 0.3};
 
 	// c->code_font must be specified in config file.
 	c->code_size = 8.0;
-	c->code_clr = vec3(0.0, 0.0, 0.0);
+	c->code_clr = (vec3){0.0, 0.0, 0.0};
 	// c->comment_font must be specified in config file.
-	c->comment_clr = vec3(0.3, 0.3, 0.3);
-	c->codeline_clr_a = vec3(0.9, 0.9, 0.9);
-	c->codeline_clr_b = vec3(1.0, 1.0, 1.0);
+	c->comment_clr = (vec3){0.3, 0.3, 0.3};
+	c->codeline_clr_a = (vec3){0.9, 0.9, 0.9};
+	c->codeline_clr_b = (vec3){1.0, 1.0, 1.0};
 
 	// c->text_font must be specified in config file.
 	c->text_size = 12.0;
-	c->text_clr = vec3(0.0, 0.0, 0.0);
+	c->text_clr = (vec3){0.0, 0.0, 0.0};
 }
 
 

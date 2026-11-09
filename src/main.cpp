@@ -119,7 +119,7 @@ int main(int argc, char **argv)
 
 	// config file
 	const char *config_file = argv[1];
-	struct config c = {0};
+	config c;
 	parse_configfile(&c, config_file);
 	WIN_LOG("config file parsed : %s", config_file);
 
