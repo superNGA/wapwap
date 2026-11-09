@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="res/cover_art.png" width="180" height="180" alt="cover_art">
+  <img src="res/cover_art.png" width="500" height="500" alt="cover_art">
 </p>
 `wapwap` is a "output text line-by-line to a pdf file" tool.
 `wapwap` can output plain text, contents of a file, or output of a shell cmd.
