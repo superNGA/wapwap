@@ -16,12 +16,11 @@
 #include "../util/log_io.h"
 
 
-static char* find_char(char *haystack, char needle);
-static int find_entity_data(char *src, enum entity_data_type *datatype_out, char **data_out, char **start_out);
-static int calc_entity_type(char *line_start, enum file_entity_type *type_out);
-static int collect_all_ent_data(char *src, std::vector<entity_data> *out);
+static char* find_char           (char *haystack, char needle);
+static int   find_entity_data    (char *src, enum entity_data_type *datatype_out, char **data_out, char **start_out);
+static int   calc_entity_type    (char *line_start, enum file_entity_type *type_out);
+static int   collect_all_ent_data(char *src, std::vector<entity_data> *out);
 
-static const char* get_file_entity_type_name(enum file_entity_type t);
 static const char* get_entity_data_type_name(enum entity_data_type t);
 
 
@@ -72,7 +71,7 @@ int parse_taskfile(std::vector<file_entity>* tasks_out, const char *file)
 		// Collect all entity data inside this file_entity (file line)
 		ent_data.clear();
 		collect_all_ent_data(line_buf, &ent_data);
-		if (ent_data.empty()) {
+		if (ent_data.empty() && fe_type != FILEENTITY_NEWPAGE) { // <p> is allowed to be empty. because thats convinient for me.
 			FAIL_LOG("Empty file entity encountered.");
 			goto FAILURE_EXIT;
 		}
@@ -163,6 +162,7 @@ int calc_entity_type(char *line_start, enum file_entity_type *type_out)
 	case 'c': case 'C': *type_out = FILEENTITY_CODE_BLOCK; return 0;
 	case 't': case 'T': *type_out = FILEENTITY_TEXT; return 0;
 	case 'h': case 'H': *type_out = FILEENTITY_HEADING; return 0;
+	case 'p': case 'P': *type_out = FILEENTITY_NEWPAGE; return 0;
 	default: break;
 	}
 
@@ -190,18 +190,6 @@ static int collect_all_ent_data(char *src, std::vector<entity_data> *out)
 	return 0;
 }
 
-
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-static const char* get_file_entity_type_name(enum file_entity_type t)
-{
-	switch (t) {
-	case FILEENTITY_CODE_BLOCK: return "File-Entity CODE-BLOCK";
-	case FILEENTITY_HEADING: return "File-Entity HEADING";
-	case FILEENTITY_TEXT: return "File-Entity TEXT";
-	}
-	return "Invlaid fileentity type";
-}
 
 
 ///////////////////////////////////////////////////////////////////////////

@@ -20,7 +20,8 @@
 enum file_entity_type {
 	FILEENTITY_CODE_BLOCK,
 	FILEENTITY_HEADING,
-	FILEENTITY_TEXT
+	FILEENTITY_TEXT,
+	FILEENTITY_NEWPAGE
 };
 
 
@@ -32,6 +33,9 @@ struct file_entity {
 
 	std::vector<entity_data> data;
 };
+
+
+const char *get_file_entity_type_name(enum file_entity_type t);
 
 
 #endif // FILE_ENTITY_H

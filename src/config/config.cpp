@@ -13,6 +13,9 @@
 
 #include "../util/log_io.h"
 
+// Line num
+#define LINENUM               "LINENUM"
+
 // heading variables
 #define HEADING_FONTFILE      "HEADING_FONTFILE"
 #define HEADING_FONTSIZE      "HEADING_FONTSIZE"
@@ -40,6 +43,7 @@ static char* find_value_start(char *s);
 static void store_string(char *dest, const char *src);
 static void store_csv(struct vec3 *dest, const char *src);
 static void store_float(float *dest, const char *src);
+static void store_int(int *dest, const char *src);
 static void sanitize_filepath(char *s);
 
 
@@ -63,7 +67,12 @@ void parse_configfile(config *c, const char *file)
 			goto FATAL_EXIT;
 		}
 
-		if (strncmp(fileline, HEADING_FONTFILE, sizeof(HEADING_FONTFILE) - 1) == 0) {
+		if (strncmp(fileline, LINENUM, sizeof(LINENUM) - 1) == 0) {
+			int val = 0;
+			store_int(&val, value);
+			c->line_num = val;
+		}
+		else if (strncmp(fileline, HEADING_FONTFILE, sizeof(HEADING_FONTFILE) - 1) == 0) {
 			sanitize_filepath(value);
 			c->heading_font = value;
 		}
@@ -180,6 +189,14 @@ static void store_csv(struct vec3 *dest, const char *src)
 static void store_float(float *dest, const char *src)
 {
 	*dest = atof(src);
+}
+
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+static void store_int(int *dest, const char *src)
+{
+	*dest = atoi(src);
 }
 
 

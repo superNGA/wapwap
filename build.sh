@@ -29,10 +29,11 @@ SOURCES=(
 	./src/main.cpp
 	./src/config/config.cpp
 	./src/tasks/tasks.cpp
+	./src/tasks/file_entity.cpp
 	)
 
-# g++ "$FLAGS" "${SOURCES[@]}" "$LIBHARU_SLIB" -lz -o "$OUTPUT_DIR"
-g++ "$FLAGS" "${SOURCES[@]}" -lhpdf -lz -o "$OUTPUT_DIR"
+g++ "$FLAGS" "${SOURCES[@]}" "$LIBHARU_SLIB" -lz -o "$OUTPUT_DIR"
+# g++ "$FLAGS" "${SOURCES[@]}" -lhpdf -lz -o "$OUTPUT_DIR" <- this one lets us read C code in gdb
 if [ ! -e "$OUTPUT_DIR" ]; then
 	echo "Failed build"
 	exit 1
